@@ -1,0 +1,1 @@
+testBed cs241/check02a 02a.py

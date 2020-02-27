@@ -1,0 +1,437 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"max",
+				"max-width\tproperty"
+			],
+			[
+				"my",
+				"myNum2"
+			],
+			[
+				"g",
+				"getElementById"
+			],
+			[
+				"wind",
+				"windchill"
+			],
+			[
+				"winds",
+				"windspeed"
+			],
+			[
+				"windspeed",
+				"windspeedBox"
+			],
+			[
+				"your",
+				"yourAnswer"
+			],
+			[
+				"correct",
+				"correctAnswer"
+			],
+			[
+				"corr",
+				"correctAnswer"
+			],
+			[
+				"user",
+				"userAnswer"
+			],
+			[
+				"out",
+				"outputMessage"
+			],
+			[
+				"math",
+				"mathType"
+			],
+			[
+				"foot",
+				"footwearChoice"
+			],
+			[
+				"wait",
+				"waitYears"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"rate",
+				"rateOfChange"
+			],
+			[
+				"gas",
+				"gasGallons"
+			],
+			[
+				"C",
+				"Celsius"
+			],
+			[
+				"liter",
+				"liters_num"
+			],
+			[
+				"quar",
+				"quarts_num"
+			],
+			[
+				"myVar",
+				"myVar2"
+			],
+			[
+				"My",
+				"myVar"
+			],
+			[
+				"DI",
+				"DIV\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "Package Control Messages\n========================\n\nPythonVoiceCodingPlugin\n-----------------------\n\n  PythonVoiceCodingPlugin\n  \n  Release 0.0.5 he's out fixing problems of 0.0.4 regarding the installation via package control and adds a useful utilities under Preferences > Package Settings  > PythonVoiceCodingPlugin iincluding links to online documentation issues, grammar bundles and so on.\n  \n  Code wise it is identical in its core with 0.0.4, which makes it almost 2 months old. However\n  I am currently wrapping up the development of 0.1.0. Also you should know that Caster 1.x.x is also supported but  you must enable it by saying\n  \n  \n  enable python voice coding plugin\n  \n  \n   if you have any problem or questions regarding installation , whether of the plug-in itself or the grammar necessary to use it please let me know at my issues!\n\n\nGitHub Markdown Snippets\n------------------------\n\n  ☀☀☀☀☀☀ Thanks for Github Markdown Snippets! (✿✪‿✪｡)ﾉ ☀☀☀☀☀☀☀\n  ✿ To report bugs and request features - https://github.com/praveenpuglia/github_markdown_snippets\n  \n  〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜\n  Usage\n  〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜\n  A consolidated guide is available at - http://praveenpuglia.github.io/github_markdown_snippets \n  \n  Type a tag name and hit tab. That's it! ｡◕‿◕｡\n  \n  ✿ Long tags like `blockquote` are shortened for power use.\n  \n  〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜\n  List of Tab Triggers\n  〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜〜\n  h1              // Heading 1\n  h2              // Heading 2\n  h3              // Heading 3\n  h4              // Heading 4\n  h5              // Heading 5\n  h6              // Heading 6\n  b               // Bold\n  i               // Italic\n  bq              // Blockquote\n  strike          // Strikeout\n  hr              // Horizontal Rule, Divider\n  code            // Inline Code\n  pre             // Code Block with language based highlighting.\n  a               // Anchor\n  img             // Image\n  ol              // Ordered List\n  ul              // Unordered List\n  table           // Table\n\n\nPython Improved\n---------------\n\n  Python Improved\n  ===============\n  \n  Thank you for installing Python Improved, the best Python language definition\n  for Sublime Text! To make this your default Python, open a `.py` Python file.\n  Select `View -> Syntax -> Open all with current extension as... -> PythonImproved`\n  and you should be all set.\n  \n  To take full advantage of the extra scopes included in Python Improved, check\n  out the Neon Color Scheme at https://sublime.wbond.net/packages/Neon%20Color%20Scheme\n  If you'd rather modify your own color scheme, a list of scopes is included in\n  the README.md in the `Packages/Python Improved` directory. You can also find\n  them on GitHub at https://github.com/MattDMo/PythonImproved\n  \n  If you have any questions, comments, concerns, bugs, or patches, please open an\n  issue or pull request on GitHub and I'll do what I can to help out. You can also\n  email me directly at <mattdmo@pigimal.com> or find me on Twitter @MattDMo. This\n  is definitely a work in progress, so if you'd like to contribute I'd love to\n  hear from you!\n\n\nPython Flake8 Lint\n------------------\n\n  Thank you for installing Python Flake8 Lint!\n  \n  \n  For details, please visit: https://github.com/dreadatour/Flake8Lint\n\n\nMagicPython\n-----------\n\n  MagicPython\n  ===========\n  \n  Thank you for installing MagicPython -- a syntax highlighter for\n  cutting edge Python.\n  \n  You're almost there, please do the following steps to finish\n  the installation:\n  \n  * Close all open Python files;\n  \n  * Disable the \"Python\" package:\n  \n    - via Package Control by executing \"Package Control: Disable Package\";\n  \n    - or manually, by adding \"Python\" to \"ignored_packages\", in your\n      `Preferences.sublime-settings` file.\n  \n  If you find any oddities in how your Python code is highlighted, please\n  file a bug at https://github.com/MagicStack/MagicPython/issues.\n\n\nEmmet\n-----\n\n  Thank you for installing Emmet -- a toolkit that can greatly improve your workflow. Note that this plugin automatically downloads and installs PyV8 binary (see status bar message). \n  \n  ******************************\n  Please restart editor \n  to finish installation process \n  after PyV8 was downloaded.\n  ******************************\n  \n  Tab key handler\n  ==========================\n  \n  By default, Emmet allows you to expand abbreviations with Tab key in HTML, XML, HAML and CSS/SASS/LESS/Stylus documents. As a side effect, you can’t use some of your ST2 snippets.\n  \n  Please read https://github.com/sergeche/emmet-sublime#tab-key-handler about how Tab handler works and how to tweak its behavior to match your needs.\n  \n  Enter key\n  ==========================\n  \n  In HTML and XML documents, Emmet overrides Enter key to insert formatted line breaks between opening and closing tags. In some cases it will break character input (for example, in Japanese language).\n  \n  To disable Enter key handler, simply add the following option in your user's Preferences file:\n  \n  \"disable_formatted_linebreak\": true\n  \n  Actions shortcuts\n  ==========================\n  \n  Emmet has a number of actions with keyboard shortcuts that may override ones you're using commonly (for example, Ctrl-E or Ctrl-Down). Please read the project main page to get list of available actions and keyboard shortcuts and how to disable them:\n  https://github.com/sergeche/emmet-sublime\n  \n  Documentation and examples:\n  http://emmet.io\n  \n  ------------------------------\n  Follow me on Twitter: @emmetio\n  ------------------------------\n\n\nEmmet Css Snippets\n------------------\n\n  \n  Emmet CSS Snippets\n  \n  Thank you for installing Emmet CSS Snippets. This package is an alternative for Emmet and a few snippet triggers were changed, please check the cheat sheet at http://p233.github.io/Emmet-Css-Snippets-for-Sublime-Text-2/\n  \n  ## Features\n  \n  * Works with default CSS package, [LESS](https://sublime.wbond.net/packages/LESS), and [Syntax Highlighting for Sass](https://sublime.wbond.net/packages/Syntax%20Highlighting%20for%20Sass)\n  * Two versions: `has-Prefix` or `no-Prefix`\n  * Smart completion rule: propery snippes will no longer popup when you typing propery values\n  * Pseudo class completions\n  * Extra propery value completions\n  \n  ## Prefix\n  \n  If you intend to use snippets with no prefix, add `has-Prefix` into the ignored_packages list of your settings file. The other way round, if you intend to use snippets with prefix, add `no-Prefix` into the ignored_packages list.\n  \n  -------------\n  Enjoy coding!\n\n\n1337 Color Scheme\n-----------------\n\n  # 1337 Color Scheme\n  \n  Thank you for installing `1337 Color Scheme`.\n  \n  ## Usage\n  \n  ### ST 3149 and later\n  \n  Select `Preferences > Color Scheme ... > 1337 Color Scheme` from the main menu.\n  \n  Make sure you use the **new** [`.sublime-color-scheme`](https://www.sublimetext.com/docs/3/color_schemes.html) format.\n  \n  ### older Builds\n  \n  Select `Preferences > Settings` from the main menu and set:\n  \n  ```json\n  \n      \"color_scheme\": \"Packages/1337 Color Scheme/1337 Color Scheme.tmTheme\"\n  \n  ```\n  \n  ## Feedback\n  \n  <https://github.com/MarkMichos/1337-Scheme>\n\n\nAnaconda\n--------\n\n  \n  \n                                                            |\n                _` |  __ \\    _` |   __|   _ \\   __ \\    _` |   _` |\n               (   |  |   |  (   |  (     (   |  |   |  (   |  (   |\n              \\__,_| _|  _| \\__,_| \\___| \\___/  _|  _| \\__,_| \\__,_|\n  \n                                       The Sublime Text 3 Python IDE\n  \n  \n  Welcome to anaconda, the Sublime Text 3 Python IDE. We hope you enjoy it :)\n  \n  Anaconda works fine out of the box but you can configure it to totally adapt\n  it to your needs or style.\n  \n  For a complete guide of use and configuration take a look at:\n  \n  \thttp://damnwidget.github.io/anaconda/\n  \n  Please, consider donating to maintain this project alive:\n  \n  \thttps://pledgie.com/campaigns/32230\n\n\nSublimeLinter\n-------------\n\n  \n    ____        _     _ _                _     _       _\n   / ___| _   _| |__ | (_)_ __ ___   ___| |   (_)_ __ | |_ ___ _ __\n   \\___ \\| | | | '_ \\| | | '_ ` _ \\ / _ \\ |   | | '_ \\| __/ _ \\ '__|\n    ___) | |_| | |_) | | | | | | | |  __/ |___| | | | | ||  __/ |\n   |____/ \\__,_|_.__/|_|_|_| |_| |_|\\___|_____|_|_| |_|\\__\\___|_|\n  \n  \n  Welcome to SublimeLinter, a linter framework for Sublime Text 3.\n  Linters are not included, they must be installed separately.\n  \n  \n  For complete documentation on how to use and configure SublimeLinter,\n  please see: http://www.sublimelinter.com\n  \n  To report issues: https://github.com/SublimeLinter/SublimeLinter\n\n\nGitSavvy\n--------\n\n  # Welcome to GitSavvy\n  \n  GitSavvy provides integration between Sublime Text 3 and Git.\n  \n  If you're a new user and you find yourself asking, _\"Can GitSavvy do X?\"_, there are two places to look.  First, open your command palette and type `GitSavvy: help`.  This will take you to the offline wiki-style documentation.\n  \n  You can also check for configurability options by opening `Preferences > Package Settings > GitSavvy > Settings - Default` in the ST3 menu.  Any optional or configurable behavior will be documented here, along with the default values.\n  \n  If you need help along the way, there's usually someone around in our Gitter channel:\n  https://gitter.im/divmain/GitSavvy\n  \n  Finally, if at any time you encounter a bug, or if you wish that GitSavvy included some missing functionality, please open an issue:\n  https://github.com/timbrel/GitSavvy/issues\n\n\nCodeTimeTracker\n---------------\n\n  # CodeTimeTracker\n  Sublime plug-in to measure the time spent on projects\n  \n  --------------------------------------------------------------\n  \n  Warning\n  \n      This plug-in measure the time spent on projects, then you have to working with sublime projects.\n  \n      To do a project on Sublime-Text you have to:\n  \n          1- Go to menu 'File'->'Open Folder...' choose the project folder.\n          2- Go to menu 'Project'->'Save Project As...' and save the project.\n  \n      Now you are in a sublime project.\n  \n  Dashboard\n  \n      To open dashboard:\n  \n          - Use command (Ctrl+Shift+p) and type 'CodeTimeTracker' or 'tracker'\n          and choose the option \"CondeTimeTracker: Open Dashboard\".\n  \n          or.\n  \n          - Open menu 'Tools'->'CodeTimeTracker'->'CodeTimeTracker:Open Dashboard'.\n  \n          Dashboard will appear in you default browser with the address http://localhost:10123/CodeTimeTracker/\n  \n  Delete Data\n  \n      To delete tracker data you have do:\n  \n          - Use command (Ctrl+Shift+p) and type 'CodeTimeTracker' or 'tracker'\n          and choose the option \"CondeTimeTracker: Delete tracker data\".\n  \n          or.\n  \n          - Open menu 'Tools'->'CodeTimeTracker'->'CodeTimeTracker:Delete tracker data'.\n  \n  Coming Soon\n  \n      - Option for choose technologies to appear in the graphics.\n      - Maybe git integration for merge tracker data, case you use CodeTimeTracker in another computer.\n      - Top 3 technologies.\n      - Top 3 projects.\n      - Behavior\n",
+			"settings":
+			{
+				"buffer_size": 11186,
+				"line_ending": "Windows",
+				"name": "Package Control Messages",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"file": "wk02/prove02.py",
+			"settings":
+			{
+				"buffer_size": 1913,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"install package control",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Discover Packages"
+			],
+			[
+				"python",
+				"Build With: Python"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 158.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/hello",
+		"/D/hello/wk02"
+	],
+	"file_history":
+	[
+		"/C/Users/drl/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/E/test3.html",
+		"/E/0000-MyPrograms/style.css",
+		"/E/0000-MyPrograms/style.css.bak.css",
+		"/E/myjs.js",
+		"/E/001-BYU-I/js_template.html",
+		"/E/0000-MyPrograms/card-hover-effect.html",
+		"/E/001-BYU-I/web designer meme.jpg",
+		"/E/001-BYU-I/2019-Fall/CIT 160 - intro to programming - javascript/CIT-160_Week10_WindChill_Doris Rush-Lopez.html",
+		"/E/001-BYU-I/2019-Fall/CIT 160 - intro to programming - javascript/CIT160_wk12_01.html",
+		"/E/001-BYU-I/CIT-160_HTML-javaScriptTemplate_Doris Rush-Lopez.html",
+		"/E/001-BYU-I/2019-Fall/CIT 160 - intro to programming - javascript/exam2B.html",
+		"/E/001-BYU-I/2019-Fall-backup/WDD 100 - intro to websites - html-css/001-WDD 100 Project Files/index.html",
+		"/E/001-BYU-I/2019-Fall-backup/WDD 100 - intro to websites - html-css/001-WDD 100 Project Files/guard-the-environment.html",
+		"/E/001-BYU-I/2019-Fall-backup/WDD 100 - intro to websites - html-css/001-WDD 100 Project Files/guarding-the-environment.html",
+		"/E/001-BYU-I/2019-Fall-backup/WDD 100 - intro to websites - html-css/001-WDD 100 Project Files/fulfill-your-dreams.html",
+		"/E/001-BYU-I/2019-Fall-backup/WDD 100 - intro to websites - html-css/001-WDD 100 Project Files/book-now.html",
+		"/E/001-BYU-I/2019-Fall-backup/WDD 100 - intro to websites - html-css/001-WDD 100 Project Files/style.css",
+		"/E/001-BYU-I/2019-Fall-backup/WDD 100 - intro to websites - html-css/001-WDD 100 Project Files/style.css.bak.css",
+		"/E/BYU-I-backup/2019-Fall-backup/WDD 100 - intro to websites - html-css/style-original.css",
+		"/E/BYU-I-backup/2019-Fall-backup/WDD 100 - intro to websites - html-css/experience-the-momentum.html",
+		"/E/BYU-I-backup/2019-Fall-backup/CIT 160 - intro to programming - javascript/CIT-160_HTML-javaScriptTemplate_Doris Rush-Lopez.html",
+		"/E/BYU-I-backup/2019-Fall-backup/WDD 100 - intro to websites - html-css/bootstrap_template.html",
+		"/E/BYU-I-backup/2019-Fall-backup/CIT 160 - intro to programming - javascript/CIT-160_HTML-javaScript_Week 06_SimpleMathQuiz_Doris Rush-Lopez.html",
+		"/E/BYU-I-backup/2019-Fall-backup/CIT 160 - intro to programming - javascript/CIT-160_HTML-javaScript_Week 06_WeatherSelection_Doris Rush-Lopez.html",
+		"/E/BYU-I-backup/2019-Fall-backup/WDD 100 - intro to websites - html-css/fulfill-your-dreams.html",
+		"/E/BYU-I-backup/2019-Fall-backup/WDD 100 - intro to websites - html-css/guarding-the-environment.html",
+		"/E/BYU-I-backup/2019-Fall-backup/CIT 160 - intro to programming - javascript/copy of week 05 - exam - calc volume of torus.html",
+		"/E/BYU-I-backup/2019-Fall-backup/CIT 160 - intro to programming - javascript/celsius to fahrenheit javascript.html",
+		"/E/BYU-I-backup/2019-Fall-backup/CIT 160 - intro to programming - javascript/fahr to celcius javascript.html",
+		"/E/BYU-I-backup/2019-Fall-backup/CIT 160 - intro to programming - javascript/CIT 160-WEEK 05-#2-GAS MILEAGE-Doris Rush-Lopez.html",
+		"/E/BYU-I-backup/2019-Fall-backup/CIT 160 - intro to programming - javascript/CIT 160-WEEK 05-#1-quarts to liters-Doris Rush-Lopez.html",
+		"/C/Users/drl/OneDrive/BYU-I/2019-Fall/CIT 160 - intro to programming - javascript/CIT 160-Week 05-Exam part B-#1.html",
+		"/C/Users/drl/OneDrive/BYU-I/2019-Fall/CIT 160 - intro to programming - javascript/CIT 160-Week 05-Exam part B-#2.html",
+		"/D/BYU-I-backup/2019-Fall-backup/CIT 111 - intro to databases-MySQL/magazines.sql",
+		"/D/BYU-I-backup/2019-Fall-backup/CIT 160 - intro to programming - javascript/CIT-160_HTML-javaScriptTemplate_Doris Rush-Lopez.html",
+		"/C/Users/drl/OneDrive/BYU-I/2019-Fall/CIT 160 - intro to programming - javascript/CIT-160_wk 04_assignment3_Doris Rush-Lopez.html",
+		"/C/Users/drl/OneDrive/BYU-I/2019-Fall/CIT 160 - intro to programming - javascript/CIT-160_wk 04_assignment2_Doris Rush-Lopez.html",
+		"/C/Users/drl/OneDrive/BYU-I/2019-Fall/CIT 160 - intro to programming - javascript/CIT-160_wk 04_assignment 1_Doris Rush-Lopez.html",
+		"/C/Users/drl/OneDrive/BYU-I/2019-Fall/CIT 160 - intro to programming - javascript/CIT-160_wk 03_assignment2_form-trial_Doris Rush-Lopez.html",
+		"/C/Users/drl/OneDrive/BYU-I/2019-Fall/CIT 160 - intro to programming - javascript/CIT-160_wk 03_assignment1_business-page-gotwick_Doris Rush-Lopez.html"
+	],
+	"find":
+	{
+		"height": 41.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "D:\\hello"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11186,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								125,
+								125
+							]
+						],
+						"settings":
+						{
+							"SL.50.region_keys":
+							[
+							],
+							"auto_indent": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_width": 2,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 108.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "wk02/prove02.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1913,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								449,
+								449
+							]
+						],
+						"settings":
+						{
+							"SL.77.region_keys":
+							[
+							],
+							"has_idle_timer": true,
+							"input_view_tracer_args":
+							[
+							],
+							"output_view_id": 126,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 41.0
+	},
+	"input":
+	{
+		"height": 40.8
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 127.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"project": "",
+	"replace":
+	{
+		"height": 78.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 238.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
