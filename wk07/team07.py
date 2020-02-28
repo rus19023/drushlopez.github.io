@@ -3,6 +3,7 @@ File: ta07-solution.py
 Author: Br. Burton
 Demonstrates inheritance and polymorphism.
 """
+from abc import abstractmethod 
 
 class Employee:
     def __init__(self, name):
@@ -15,7 +16,7 @@ class HourlyEmployee(Employee):
     """
     An HourlyEmployee has an hourly wage.
     """
-    def __init__(self, name, wage):
+    def __init__(self, name, wage, hours):
         super().__init__(name)
 
         self.hourly_wage = wage
