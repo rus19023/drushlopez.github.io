@@ -3,11 +3,17 @@ File: ta07-solution.py
 Author: Br. Burton
 Demonstrates inheritance and polymorphism.
 """
-from abc import abstractmethod 
+
+from abc import abstractmethod
+
 
 class Employee:
     def __init__(self, name):
         self.name = name
+
+    @abstractmethod
+    def get_paycheck(self):
+        pass
 
     def display(self):
         print(self.name)
@@ -16,6 +22,7 @@ class Employee:
     def get_paycheck(self):
         pass
 
+
 class HourlyEmployee(Employee):
     """
     An HourlyEmployee has an hourly wage.
@@ -23,15 +30,24 @@ class HourlyEmployee(Employee):
     def __init__(self, name, wage, hours):
         super().__init__(name)
 
-        self.hourly_wage = wage
+        self.wage = wage
         self.hours = hours
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> b4bf50f74c320633baa6a882010371ab19ef08d6
     def get_paycheck(self):
-        return self.hourly_wage * self.hours
-        
+        return self.wage * self.hours
 
     def display(self):
+<<<<<<< HEAD
         print("{} - ${}/hour - Paycheck: {}".format(self.name, self.hourly_wage, self.get_paycheck()))
+=======
+        print("{} - ${}/hour - {} hours worked - Weekly Paycheck ${:.2f}".format(
+            self.name, self.wage, self.hours, self.get_paycheck()))
+
+>>>>>>> b4bf50f74c320633baa6a882010371ab19ef08d6
 
 class SalaryEmployee(Employee):
     """
@@ -45,8 +61,16 @@ class SalaryEmployee(Employee):
         return self.salary // 52
        
 
+    def get_paycheck(self):
+        return self.salary / 52
+
     def display(self):
+<<<<<<< HEAD
         print("{} - ${}/year - Paycheck: ${}".format(self.name, self.salary, self.get_paycheck()))
+=======
+        print("{} - ${}/year - Weekly paycheck: ${:.2f}".format(self.name, self.salary, self.get_paycheck()))
+
+>>>>>>> b4bf50f74c320633baa6a882010371ab19ef08d6
 
 def main():
     """
@@ -63,7 +87,12 @@ def main():
         if command == "h":
             name = input("Enter name: ")
             wage = int(input("Enter wage: "))
+<<<<<<< HEAD
             hours = int(input("Enter hours: "))
+=======
+            hours = int(input("Enter hours worked: "))
+
+>>>>>>> b4bf50f74c320633baa6a882010371ab19ef08d6
             emp = HourlyEmployee(name, wage, hours)
             employees.append(emp)
         elif command == "s":
