@@ -11,6 +11,10 @@ class Employee:
 
     def display(self):
         print(self.name)
+            
+    @abstractmethod
+    def get_paycheck(self):
+        pass
 
 class HourlyEmployee(Employee):
     """
@@ -21,14 +25,13 @@ class HourlyEmployee(Employee):
 
         self.hourly_wage = wage
         self.hours = hours
-        
-    @abstractmethod
+    
     def get_paycheck(self):
         return self.hourly_wage * self.hours
         
 
     def display(self):
-        print("{} - ${}/hour".format(self.name, self.hourly_wage))
+        print("{} - ${}/hour - Paycheck: {}".format(self.name, self.hourly_wage, self.get_paycheck()))
 
 class SalaryEmployee(Employee):
     """
@@ -36,11 +39,14 @@ class SalaryEmployee(Employee):
     """
     def __init__(self, name, salary):
         super().__init__(name)
-
         self.salary = salary
+        
+    def get_paycheck(self):
+        return self.salary // 52
+       
 
     def display(self):
-        print("{} - ${}/year".format(self.name, self.salary))
+        print("{} - ${}/year - Paycheck: ${}".format(self.name, self.salary, self.get_paycheck()))
 
 def main():
     """
@@ -57,13 +63,12 @@ def main():
         if command == "h":
             name = input("Enter name: ")
             wage = int(input("Enter wage: "))
-
-            emp = HourlyEmployee(name, wage)
+            hours = int(input("Enter hours: "))
+            emp = HourlyEmployee(name, wage, hours)
             employees.append(emp)
         elif command == "s":
             name = input("Enter name: ")
             salary = int(input("Enter salary: "))
-
             emp = SalaryEmployee(name, salary)
             employees.append(emp)
 

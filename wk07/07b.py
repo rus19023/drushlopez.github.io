@@ -11,9 +11,8 @@ import math
 
 #TODO: convert this to an ABC
 class Shape(ABC):
-    def __init__(self):
-        self.name = ""
-        super().__init__()
+    def __init__(self, name):
+        self.name = name
 
     #TODO: Add an abstractmethod here called get_area
     @abstractmethod
@@ -37,10 +36,11 @@ class Circle(Shape):
 #TODO: Create a Rectangle class here that derives from Shape
 class Rectangle(Shape):
     def __init__(self, name, length, width):
-        super().__init__(name)
+        super().__init__()
         self.name = "Rectangle"
-        self.width = 0.0
-        self.length = 0.0
+        self.length = length
+        self.width = width
+        
         
     def get_area(self):
         area = self.width * self.length
@@ -53,18 +53,22 @@ def main():
     command = ""
 
     while command != "q":
+        
         command = input("Please enter 'c' for circle, 'r' for rectangle or 'q' to quit: ")
 
         if command == "c":
-            radius1 = float(input("Enter the radius: "))
+            radius1 = 3 
+            #radius1 = float(input("Enter the radius: "))'''
             #TODO: Declare your Circle here, set its radius, and
             # add it to the list
             circle1 = Circle(radius1)
             shapes.append(circle1)
         
         elif command == "r":
-            length = float(input("Enter the length: "))
-            width = float(input("Enter the width: "))
+            length = 2
+            width = 6
+            #length = float(input("Enter the length: "))
+            #width = float(input("Enter the width: "))
             #TODO: Declare your Rectangle here, set its length
             # and width, and add it to the list
             rectangle1 = Rectangle(width, length)
@@ -78,4 +82,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
