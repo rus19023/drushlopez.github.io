@@ -3,14 +3,21 @@ File: ta07-solution.py
 Author: Br. Burton
 Demonstrates inheritance and polymorphism.
 """
-from abc import abstractmethod 
+
+from abc import abstractmethod
+
 
 class Employee:
     def __init__(self, name):
         self.name = name
 
+    @abstractmethod
+    def get_paycheck(self):
+        pass
+
     def display(self):
         print(self.name)
+
 
 class HourlyEmployee(Employee):
     """
@@ -19,16 +26,16 @@ class HourlyEmployee(Employee):
     def __init__(self, name, wage, hours):
         super().__init__(name)
 
-        self.hourly_wage = wage
+        self.wage = wage
         self.hours = hours
-        
-    @abstractmethod
+
     def get_paycheck(self):
-        return self.hourly_wage * self.hours
-        
+        return self.wage * self.hours
 
     def display(self):
-        print("{} - ${}/hour".format(self.name, self.hourly_wage))
+        print("{} - ${}/hour - {} hours worked - Weekly Paycheck ${:.2f}".format(
+            self.name, self.wage, self.hours, self.get_paycheck()))
+
 
 class SalaryEmployee(Employee):
     """
@@ -36,11 +43,14 @@ class SalaryEmployee(Employee):
     """
     def __init__(self, name, salary):
         super().__init__(name)
-
         self.salary = salary
 
+    def get_paycheck(self):
+        return self.salary / 52
+
     def display(self):
-        print("{} - ${}/year".format(self.name, self.salary))
+        print("{} - ${}/year - Weekly paycheck: ${:.2f}".format(self.name, self.salary, self.get_paycheck()))
+
 
 def main():
     """
@@ -57,8 +67,9 @@ def main():
         if command == "h":
             name = input("Enter name: ")
             wage = int(input("Enter wage: "))
+            hours = int(input("Enter hours worked: "))
 
-            emp = HourlyEmployee(name, wage)
+            emp = HourlyEmployee(name, wage, hours)
             employees.append(emp)
         elif command == "s":
             name = input("Enter name: ")
