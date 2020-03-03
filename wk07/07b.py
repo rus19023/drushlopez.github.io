@@ -15,13 +15,12 @@ import math
 
 
 class Shape(ABC):
-<<<<<<< HEAD
+
     def __init__(self, name):
         self.name = name
-=======
+
     def __init__(self):
         super().__init__()
->>>>>>> b4bf50f74c320633baa6a882010371ab19ef08d6
 
     #TODO: Add an abstractmethod here called get_area
 
@@ -38,7 +37,8 @@ class Shape(ABC):
 
 class Circle(Shape):
     def __init__(self, name="Circle", radius=0.0):
-        super().__init__()
+        super().__init__(name)
+        self.name = name
         self.radius = radius
 
     def get_area(self):
@@ -49,21 +49,13 @@ class Circle(Shape):
 
 
 class Rectangle(Shape):
-<<<<<<< HEAD
-    def __init__(self, name, length, width):
+
+    def __init__(self, name="Rectangle", length=0.0, width=0.0):
         super().__init__()
-        self.name = "Rectangle"
+        self.name = name
         self.length = length
         self.width = width
-        
-        
-=======
-    def __init__(self, length, width):
-        super().__init__('Rectangle')
-        self.width = 0.0
-        self.length = 0.0
 
->>>>>>> b4bf50f74c320633baa6a882010371ab19ef08d6
     def get_area(self):
         area = self.width * self.length
         return area
@@ -81,8 +73,7 @@ def main():
         command = input("Please enter 'c' for circle, 'r' for rectangle or 'q' to quit: ")
 
         if command == "c":
-            radius1 = 3 
-            #radius1 = float(input("Enter the radius: "))'''
+            radius1 = float(input("Enter the radius: "))
             #TODO: Declare your Circle here, set its radius, and
             # add it to the list
             circle1 = Circle(radius1)
