@@ -11,13 +11,12 @@ import math
 
 #TODO: convert this to an ABC
 class Shape(ABC):
-<<<<<<< HEAD
+
 
     def __init__(self, name):
         self.name = name
 
-=======
->>>>>>> 945c9f1d3c2b1d8e937d948705d11080ae822d70
+
     def __init__(self):
         self.name = ""
         super().__init__()
@@ -32,15 +31,15 @@ class Shape(ABC):
 
 #TODO: Create a Circle class here that derives from Shape
 class Circle(Shape):
-<<<<<<< HEAD
+
     def __init__(self, name="Circle", radius=0.0):
         super().__init__(name)
         self.name = name
-=======
+
     def __init__(self, radius=0.0):
         super().__init__()
         self.name = "Circle"
->>>>>>> 945c9f1d3c2b1d8e937d948705d11080ae822d70
+
         self.radius = radius
         
     def get_area(self):
@@ -49,7 +48,6 @@ class Circle(Shape):
 
 #TODO: Create a Rectangle class here that derives from Shape
 class Rectangle(Shape):
-<<<<<<< HEAD
 
     def __init__(self, name="Rectangle", length=0.0, width=0.0):
         super().__init__()
@@ -57,14 +55,14 @@ class Rectangle(Shape):
         self.length = length
         self.width = width
 
-=======
+
     def __init__(self, width=0.0, length=0.0):
         super().__init__()
         self.name = "Rectangle"
         self.width = width
         self.length = length
         
->>>>>>> 945c9f1d3c2b1d8e937d948705d11080ae822d70
+
     def get_area(self):
         area = round(self.width * self.length, 2)
         return area

@@ -15,7 +15,7 @@ def fib(n):
     
     print("The Fibonacci number is: {}".format(n3))
 
-    fib(index + 1)
+    fib(n + 1)
     
     
 def main():
