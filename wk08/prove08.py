@@ -45,7 +45,7 @@ def construct_tree():
 
 def print_tree(node):
     """
-    This functions should use RECURSION to print out all the nodes of the tree IN ORDER.
+    This function should use RECURSION to print out all the nodes of the tree IN ORDER.
     :param node:
     :return:
     """
