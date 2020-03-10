@@ -1,21 +1,21 @@
 class GPA():
-    def  __init__(self, value=0.0):
-        self.gpa = value
-
-
+    def  __init__(self, gpa=0.0):
+        self.gpa = gpa
+        
+   
     def get_gpa(self):
         return self.gpa
-
-
-    def set_gpa(self, value):
+    
+       
+    def set_gpa(self, value):   
         if value < 0.0:
             self.gpa = 0.0
         elif value > 4.0:
             self.gpa = 4.0
         else:
             self.gpa = value
-
-
+    
+    
     def get_letter(self):
         if 0.0 <= self.gpa <= .99:
             return "F"
@@ -29,20 +29,20 @@ class GPA():
             return "A"
         else:
             return "Error"
-
-
+    
+    
     def set_letter(self, letter):
-        if letter.upper() == "F":
+        if letter == "F":
             self.gpa = 0.0
-        elif letter.upper() == "D":
+        elif letter == "D":
             self.gpa = 1.0
-        elif letter.upper() == "C":
+        elif letter == "C":
             self.gpa = 2.0
-        elif letter.upper() == "B":
+        elif letter == "B":
             self.gpa = 3.0
-        elif letter.upper() == "A":
+        elif letter == "A":
             self.gpa = 4.0
-
+            
 def main():
     student = GPA()
 
