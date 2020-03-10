@@ -3,11 +3,11 @@ def fib(n):
     counter = 0
     if n == 0:
         print("The Fibonacci number is: 0")
-    if n == 1:        
-        print("The Fibonacci number is: 1")     
+    if n == 1:
+        print("The Fibonacci number is: 1")
     if counter == n:
         return
-    n1 = 
+    n1 =
     n3 = n1 + n2
     n2 = n3 
     counter += 1   

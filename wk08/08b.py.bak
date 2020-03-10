@@ -54,7 +54,7 @@ def main():
 
     value = float(input("Enter a new GPA: "))
 
-    student.gpa(value)
+    student.gpa = value
 
     print("After setting value:")
     print("GPA: {:.2f}".format(student.gpa))
@@ -62,7 +62,7 @@ def main():
 
     letter = input("Enter a new letter: ")
 
-    student.letter
+    student.letter = letter
 
     print("After setting letter:")
     print("GPA: {:.2f}".format(student.gpa))

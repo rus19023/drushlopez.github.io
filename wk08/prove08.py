@@ -51,8 +51,15 @@ def print_tree(node):
     """
 
     # TODO: Put your code here
-    pass
+    if not (node == None):
+        if not (print_tree(node.left) == None:
+            node = print_tree(node.left)
+            if 8
+            
+    else:
+        return print_tree(node)
 
+0
 def main():
     """
     Call functions to construct a tree and print it.
