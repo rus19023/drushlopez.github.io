@@ -67,7 +67,7 @@ class Projectile:
         y = self.center.y
         angle = self.angle
 
-    #  setter??  @property?
+    #  setter??  property?
     def draw(self):
         self.angle = 45
         self.texture = arcade.load_texture(img)
@@ -125,9 +125,8 @@ class Rock_big(Projectile):
         self.spin = BIG_ROCK_SPIN
         self.radius = BIG_ROCK_RADIUS
         self.speed = BIG_ROCK_SPEED  
-        self.velocity.dx = random.uniform(1, 3)
-        self.velocity.dy = random.uniform(-2, 3)
-        self.spin = BIG_ROCK_SPIN
+        self.center.x = random.uniform(1, SCREEN_WIDTH)
+        self.center.y = random.uniform(-2, SCREEN_HEIGHT)
 
     def draw(self):
         self.img = "images/rock_big.png"
@@ -143,38 +142,8 @@ class Rock_big(Projectile):
         print("Rock coordinates: ({}, {}), velocity: ({}, {}), score: {}".format(
             self.center.x, self.center.y, self.velocity.dx, self.velocity.dy, self.score))
 
-
-class Rock_medium(Projectile):
-    def __init__(self):
-        super().__init__()
-        self.velocity.dx = random.uniform(1, 3)
-        self.velocity.dy = random.uniform(-2, 3)
-        self.spin = MEDIUM_ROCK_SPIN
-
-    def draw(self):
-        self.angle = 90
-        self.img = "images/rock_medium.png"
-        self.texture = arcade.load_texture(img)
-        self.width = MEDIUM_ROCK_RADIUS * 2
-        self.height = MEDIUM_ROCK_RADIUS * 2
-        self.alpha = 1 # For transparency, 1 means not transparent
-        ''' draw projectile using constant and member variables '''
-        arcade.draw_texture_rectangle(self.x, self.y, self.width, self.height, self.texture, self.angle, self.alpha)
-
-    def hit(self):
+    def rotate(self):
         pass
-
-
-class Rock_small(Projectile):
-    def __init__(self):
-        super().__init__()
-        self.image = "images/small.png"
-        self.radius = SMALL_ROCK_RADIUS
-        self.spin = MEDIUM_ROCK_SPIN
-        self.img = "images/rock_medium.png"
-
-    def display(self):
-        print("Safe ROCK coordinates: ({}, {}), velocity: ({}, {}), score: {}".format(self.center.x, self.center.y, self.velocity.dx, self.velocity.dy, self.score))
 
 
 class Ship(Projectile):
@@ -183,9 +152,7 @@ class Ship(Projectile):
     """
 
     def __init__(self):
-        self.center = Point()
-        self.center.x = 0
-        self.center.y = 0
+        super().__init__()
 
         x = self.center.x
         y = self.center.y
@@ -202,6 +169,9 @@ class Ship(Projectile):
         self.height = 30
         self.alpha = 1 # For transparency, 1 means not transparent
         arcade.draw_rectangle(self.x, self.y, self.width, self.height, self.texture, self.angle, self.alpha)
+
+    def die(self):
+        pass
 
 
 class Game(arcade.Window):
@@ -226,7 +196,6 @@ class Game(arcade.Window):
         # TODO: declare anything here you need the game class to track
 
         self.ship = Ship()
-        self.score = 0
 
         self.lasers = []
         self.rocks = []
@@ -243,10 +212,11 @@ class Game(arcade.Window):
         # TODO: draw each object
         self.ship.draw()
 
-        for rock in self.rocks:
-            rock.draw()
+        for laser in lasers:
+            self.laser.draw()
 
-        self.draw_score()
+        for rock in self.rocks:
+            self.rock.draw()
 
     def update(self, delta_time):
         """
@@ -256,10 +226,12 @@ class Game(arcade.Window):
         self.check_keys()
 
         # TODO: Tell everything to advance or move forward one step in time
+        for rock in self.rocks():
+            rock.rotate()
 
         # TODO: Check for collisions
 
-    
+            check_collisions()
 
     def create_rock(self):
         """
@@ -273,6 +245,7 @@ class Game(arcade.Window):
         for rock in range(5):
             rock = Rock_big()
             # rock.display()
+            print(rocks)
             self.rocks.append(rock)
 
     def check_collisions(self):
@@ -355,13 +328,13 @@ class Game(arcade.Window):
     def on_key_press(self, key: int, modifiers: int):
         """
         Puts the current key in the set of keys that are being held.
-        You will need to add things here to handle firing the laser.
+        You will need to add things here to handle firing the bullet.
         """
         if self.ship.alive:
             self.held_keys.add(key)
 
             if key == arcade.key.SPACE:
-                # TODO: Fire the laser here!
+                # TODO: Fire the bullet here!
                 pass
 
     def on_key_release(self, key: int, modifiers: int):

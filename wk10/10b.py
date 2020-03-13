@@ -5,10 +5,21 @@ Sorts a list of numbers.
 """
 
 def sort(numbers):
-    """
+    """ 
     Fill in this method to sort the list of numbers
     """
-    pass
+    for i in range(1,len(numbers)):
+        # print("list length: {}".format(len(numbers)))
+        current_number = numbers[i]
+        swap_index = i
+        # print("current_number: {}".format(current_number))
+        # print("swap_index: {}".format(swap_index))
+        while swap_index>0 and numbers[swap_index-1]>current_number:
+            numbers[swap_index]=numbers[swap_index-1]
+            swap_index = swap_index-1
+
+        numbers[swap_index]=current_number
+
 
 def prompt_for_numbers():
     """
