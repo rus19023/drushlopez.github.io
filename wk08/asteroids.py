@@ -325,25 +325,7 @@ class Game(arcade.Window):
         #    pass
 
 
-    def on_key_press(self, key: int, modifiers: int):
-        """
-        Puts the current key in the set of keys that are being held.
-        You will need to add things here to handle firing the bullet.
-        """
-        if self.ship.alive:
-            self.held_keys.add(key)
-
-            if key == arcade.key.SPACE:
-                # TODO: Fire the bullet here!
-                pass
-
-    def on_key_release(self, key: int, modifiers: int):
-        """
-        Removes the current key from the set of held keys.
-        """
-        if key in self.held_keys:
-            self.held_keys.remove(key)
-
+    
 
 # Creates the game and starts it going
 window = Game(SCREEN_WIDTH, SCREEN_HEIGHT)
