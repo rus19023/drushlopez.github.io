@@ -43,14 +43,11 @@ class Time():
         
         
 def main():
-    new_time = Time(hours, minutes, seconds)
+    new_time = Time(3, 5, 8)
     _hours = new_time.set_hours(input("Enter hours: "))
     _minutes = new_time.set_minutes(input("Enter minutes: "))
     _seconds = new_time.set_seconds(input("Enter seconds: "))
     new_time.display(_hours, _minutes, _seconds)
-            
-        
-        
         
         
 if __name__ == "__main__":

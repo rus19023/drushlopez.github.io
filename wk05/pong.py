@@ -4,7 +4,7 @@ Original Author: Br. Burton
 Designed to be completed by others
 Edited by Doris Rush-Lopez, CS 241, Winter 2020, Section 07, Br. N. Parrish
 This program implements a simplistic version of the
-classic Pong arcade game.
+classic Pong arcade game. 
 """
 import arcade
 import random

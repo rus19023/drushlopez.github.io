@@ -51,15 +51,13 @@ def print_tree(node):
     """
 
     # TODO: Put your code here
-    if not (node == None):
-        if not (print_tree(node.left) == None:
-            node = print_tree(node.left)
-            if 8
-            
-    else:
-        return print_tree(node)
+    if not (node.left is None and node.right is None):
+        print_tree(node.left)  # go to next left child, rinse and repeat
+    print(node.data) # this item is lowest, print it
+    if not (node.right is None):
+        print_tree(node.right) #go to next right child, rinse and repeat
 
-0
+
 def main():
     """
     Call functions to construct a tree and print it.

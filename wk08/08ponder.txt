@@ -1,27 +1,39 @@
 Your Name:
 
+*** Doris Rush-Lopez
+
 1. In your own words, describe encapsulation.
+
+*** Encapsulation is like packaging up the data together with the functions that work with the data, like a gift set package will include soap, lotion and bath salts of the same fragrance. It helps to make the application more secure if used with data hiding to provide complete data abstraction. This means the data can be separated in a different layer from the user interface, which can help keep hackers at bay from sensitive personal data, if I am not mistaken. It is achieved by using getters, setters and properties in classes.
 
 
 2. What is a benefit of using a property instead of just having a setter function (e.g., set_angle(45))?
 
+*** Properties can help validate input by users. When a property method includes raising exceptions, this allows handling of the input that is not within the programmed limits or configurations.
+
 
 3. What is the most interesting thing you learned as a part of your work for this class this week?
 
+*** I thought the recursion was very interesting, although I am still not sure exactly how it works. It almost seems like magic!
 
-4. Describe one specific way that you helped someone else this week, or reached out for help.
+
+4. Describe one specific way that you helped someone else this week, or reached out for help. 
+
+*** During our team challenge, I asked the other members to explain some the property concept and the getters and setters.
 
 
-5. Are there any topics from this week that you still feel uneasy about, or would like to learn more about?
+5. Are there any topics from this week that you still feel uneasy about, or would like to learn more about? 
+
+*** I think I need to find some videos or tutorials to help me better understand recursion and properties.
 
 
 6. How much time did you spend this week on each of the following:
 
-Reading - 
-Checkpoint A - 
-Checkpoint B - 
-Team Activity - 
-Data Structures Homework - 
-Prove Assignment - 
+Reading - 3.5 hours
+Checkpoint A - 2 hours
+Checkpoint B - 2 hours
+Team Activity - 1.5 hours
+Data Structures Homework - 5.5 hours 
+Prove Assignment - 6 hours
 
 If you have other questions or comments for the instructor, please post them to Slack, either in the general channel if others can benefit, or as a direct message if the matter is more personal.
