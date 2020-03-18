@@ -60,21 +60,16 @@ class Projectile:
         self.center.x = random.uniform(0, SCREEN_WIDTH - self.radius)
         self.center.y = random.uniform(0, SCREEN_HEIGHT - self.radius)
         self.velocity.dx = random.uniform(1, 5)
-        self.velocity.dy = random.uniform(-2, 5)
+        self.velocity.dy = random.uniform(1, 5)
         self.alive = True
-        self.lives = 1
-
-        x = self.center.x
-        y = self.center.y
+        self.lives = 1        
         self.angle = 45
-
-    #  setter??  property?
-    def draw(self):
-        self.angle = 45
-        self.texture = arcade.load_texture(img)
         self.width = self.radius * 2
         self.height = self.radius * 2
         self.alpha = 1 # For transparency, 1 means not transparent
+
+    def draw(self):
+        self.texture = arcade.load_texture(img)
         self.img = img
         ''' draw projectile using constant and member variables '''
         arcade.draw_texture_rectangle(self.x, self.y, self.width, self.height, self.texture, self.angle, self.alpha)
@@ -105,8 +100,8 @@ class Laser(Projectile):
         self.velocity.dx = LASER_SPEED
         self.velocity.dy = LASER_SPEED
         self.image = "images/laser.png"
-        self.width = LASER_RADIUS
-        self.height = LASER_RADIUS
+        self.width = LASER_RADIUS * 2
+        self.height = LASER_RADIUS * 2
 
     def draw(self):
         pass
@@ -127,32 +122,22 @@ class Rock_big(Projectile):
         self.spin = BIG_ROCK_SPIN
         self.radius = BIG_ROCK_RADIUS
         self.speed = BIG_ROCK_SPEED
-        self.center.x = random.uniform(1, SCREEN_WIDTH)
-        self.center.y = random.uniform(1, SCREEN_HEIGHT)
+        self.center.x = random.uniform(1, SCREEN_WIDTH - (BIG_ROCK_RADIUS * 2))
+        self.center.y = random.uniform(1, SCREEN_HEIGHT- (BIG_ROCK_RADIUS * 2))
         self.angle = 90
-        self.alpha = 255
         self.img = "images/rock_big.png"
-        self.texture = arcade.load_texture(self.img)
+        self.width = BIG_ROCK_RADIUS * 2
+        self.height = BIG_ROCK_RADIUS * 2
 
-    def draw(self):
-        ''' draw projectile using constant and member variables '''
-        arcade.draw_texture_rectangle(self.x, self.y, self.width, self.height, self.texture, self.angle, self.alpha)
-        self.angle += 3
-        
     def hit(self):
-        pass   # split big rock into 1 medium and 2 small
+        pass   # split big rock into 1 medium and 2 small    
 
-    def advance(self):
-        self.center.x += self.speed
-        self.center.y += self.speed
-        self.spin
+    def rotate(self):       
+        self.spin += 1
         
-    def display(self):
-        print("Rock coordinates: ({}, {}), velocity: ({}, {}), score: {}".format(
-            self.center.x, self.center.y, self.velocity.dx, self.velocity.dy, self.score))
+        def display(self):
+            print("Rock coordinates: ({}, {}), velocity: ({}, {})".format(self.center.x, self.center.y, self.velocity.dx, self.velocity.dy))
 
-    def rotate(self):
-        pass
 
 
 class Ship(Projectile):
@@ -253,13 +238,13 @@ class Game(arcade.Window):
         """
 
         # TODO: Decide what type of rock to create and append it to the list
-        # choose_rock = [Super_rock(), Safe_rock(), Standard_rock()]
+        # choose_rock = [Rock_big(), Rock_medium(), Rock_small()]
         # number = int(random.uniform(0,3))
         for rock in range(INITIAL_ROCK_COUNT):
             big_rock = Rock_big()
+            self.rocks.append(big_rock)
             rock.display()
             print(self.rocks)
-            self.rocks.append(big_rock)
 
     def check_collisions(self):
         """
