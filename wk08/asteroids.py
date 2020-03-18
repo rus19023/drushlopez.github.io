@@ -121,16 +121,16 @@ class Rock_big(Projectile):
         super().__init__()
         self.spin = BIG_ROCK_SPIN
         self.radius = BIG_ROCK_RADIUS
-        self.speed = BIG_ROCK_SPEED
-        self.center.x = random.uniform(1, SCREEN_WIDTH - (BIG_ROCK_RADIUS * 2))
-        self.center.y = random.uniform(1, SCREEN_HEIGHT- (BIG_ROCK_RADIUS * 2))
-        self.angle = 90
-        self.img = "images/rock_big.png"
         self.width = BIG_ROCK_RADIUS * 2
         self.height = BIG_ROCK_RADIUS * 2
+        self.speed = BIG_ROCK_SPEED
+        self.center.x = random.uniform(1, SCREEN_WIDTH - self.width
+        self.center.y = random.uniform(1, SCREEN_HEIGHT - self.height
+        self.angle = 90
+        self.img = "images/rock_big.png"
 
     def hit(self):
-        pass   # split big rock into 1 medium and 2 small    
+        pass   # split big rock into 2 medium rocks
 
     def rotate(self):       
         self.spin += 1
