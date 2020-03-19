@@ -1,15 +1,17 @@
-f = open("census.csv", "r")
+f = open("census.txt", "r")
 census = {}
 
 # This was is probably even easier
 for line in f:  # gets one line at a time from the file
-    print(line)  # we can print it or do anything else we want with it here
+    # print(line)  # we can print it or do anything else we want with it here
     words = line.split(",")
-    print(words[3])
+    education = words[3]
+    #  print(education)
+    if education not in census:
+        census[education] = 1
+    else:
+        census[education] += 1
 
-
-def main():
-    pass
-
-if __name__ == "__main__":
-    main()
+for k,v in census.items():
+    print(v, k)
+    

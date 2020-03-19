@@ -1,5 +1,5 @@
 #  file_to_open = input("Enter file: ")
-readfile = open("census.csv", "r")
+readfile = open("census.txt", "r")
 num_lines = 0
 num_words = 0
 for line in readfile:

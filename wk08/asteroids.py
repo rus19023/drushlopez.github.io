@@ -147,17 +147,17 @@ class Ship(Projectile):
         self.center.x = SCREEN_WIDTH // 2
         self.center.y = SCREEN_HEIGHT // 2
         self.angle = 0
+        self.img = "images/ship1.png"
+        self.angle = 180
+        self.texture = arcade.load_texture(img)
+        self.width = 30
+        self.height = 30
+        self.alpha = 255 # For transparency, 1 means not transparent
 
     def advance(self):
         pass
 
     def draw(self):
-        self.angle = 180
-        self.img = "images/playerShip1_orange.png"
-        self.texture = arcade.load_texture(img)
-        self.width = 30
-        self.height = 30
-        self.alpha = 1 # For transparency, 1 means not transparent
         arcade.draw_rectangle(self.x, self.y, self.width, self.height, self.texture, self.angle, self.alpha)
 
     def change_heading(self):
