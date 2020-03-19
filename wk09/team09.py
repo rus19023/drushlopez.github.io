@@ -2,7 +2,7 @@ class BalanceError(Exception):
     """     For negative balance errors    """
     def __init__(self, message):
         super().__init__(message)
-        self.overdrawn = overdrawn     
+        self.overdrawn = overdrawn
         
 
 class OutOfChecksError(Exception):
@@ -18,7 +18,8 @@ class CheckingAccount():
             raise BalanceError("Starting balance cannot be less than zero.")
         self.balance = starting_balance
         self.check_count = num_checks
-                
+
+
     def deposit(self, amount):
         """ add money to account """
         if amount < 0:
@@ -33,7 +34,7 @@ class CheckingAccount():
             raise BalanceError("Check amount cannot be more than current balance.")
         if self.check_count == 0:
             raise OutOfChecksError("You have no checks left. The cost is $5 for 25 checks.")
-        self.balance -= amount        
+        self.balance -= amount
         self.check_count -= 1
         
     def order_checks(self):
@@ -47,8 +48,8 @@ class CheckingAccount():
         print("Current balance: ${:.2f}, Number of checks left: {}".format(self.balance, self.check_count))
     
     def apply_for_credit(self, mount):
-        """  to apply for a line of credit when balance is less than check amount  """
-        pass    
+        """ apply for line of credit if balance less than check amount """
+        pass
 
 
 def display_menu():

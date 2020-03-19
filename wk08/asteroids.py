@@ -62,21 +62,19 @@ class Projectile:
         self.velocity.dx = random.uniform(1, 5)
         self.velocity.dy = random.uniform(1, 5)
         self.alive = True
-        self.lives = 1        
         self.angle = 45
         self.width = self.radius * 2
         self.height = self.radius * 2
-        self.alpha = 1 # For transparency, 1 means not transparent
+        self.img = ""
+        self.texture = arcade.load_texture(self.img)
+        self.alpha = 255  # For transparency, 1 means transparent, 255 opaque/visible
 
     def draw(self):
-        self.texture = arcade.load_texture(img)
-        self.img = img
         ''' draw projectile using constant and member variables '''
         arcade.draw_texture_rectangle(self.x, self.y, self.width, self.height, self.texture, self.angle, self.alpha)
 
     def advance(self):
-        ''' projectile moves at the current velocity '''
-        
+        ''' projectile moves at the current velocity '''        
         self.center.x += self.velocity.dx
         self.center.y += self.velocity.dy
 
@@ -112,10 +110,7 @@ class Laser(Projectile):
         self.velocity.dx = math.cos(math.radians(self.angle)) * LASER_SPEED
         self.velocity.dy = math.sin(math.radians(self.angle)) * LASER_SPEED
 
-    def die(self):
-        pass
-
-
+    
 class Rock_big(Projectile):
     def __init__(self):
         super().__init__()
@@ -124,8 +119,8 @@ class Rock_big(Projectile):
         self.width = BIG_ROCK_RADIUS * 2
         self.height = BIG_ROCK_RADIUS * 2
         self.speed = BIG_ROCK_SPEED
-        self.center.x = random.uniform(1, SCREEN_WIDTH - self.width
-        self.center.y = random.uniform(1, SCREEN_HEIGHT - self.height
+        self.center.x = random.uniform(1, SCREEN_WIDTH - self.width)
+        self.center.y = random.uniform(1, SCREEN_HEIGHT - self.height)
         self.angle = 90
         self.img = "images/rock_big.png"
 
@@ -135,7 +130,7 @@ class Rock_big(Projectile):
     def rotate(self):       
         self.spin += 1
         
-        def display(self):
+    def display(self):
             print("Rock coordinates: ({}, {}), velocity: ({}, {})".format(self.center.x, self.center.y, self.velocity.dx, self.velocity.dy))
 
 
