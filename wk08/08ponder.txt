@@ -29,11 +29,11 @@ Your Name:
 
 6. How much time did you spend this week on each of the following:
 
-Reading - 3.5 hours
+Reading - 2.5 hours
 Checkpoint A - 2 hours
 Checkpoint B - 2 hours
 Team Activity - 1.5 hours
-Data Structures Homework - 5.5 hours 
-Prove Assignment - 6 hours
+Data Structures Homework - 2.5 hours 
+Prove Assignment - 8 hours
 
 If you have other questions or comments for the instructor, please post them to Slack, either in the general channel if others can benefit, or as a direct message if the matter is more personal.

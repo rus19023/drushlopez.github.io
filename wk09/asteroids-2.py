@@ -34,11 +34,11 @@ SMALL_ROCK_RADIUS = 2
 
 
 class Point:
-    '''initialize point to lower left corner as default'''
+    '''initialize point to center of screen as default'''
 
     def __init__(self):
-        self.x = 0.0
-        self.y = 0.0
+        self.x = SCREEN_WIDTH / 2
+        self.y = SCREEN_HEIGHT / 2
 
 
 class Velocity:
@@ -57,99 +57,53 @@ class Projectile:
         self.center = Point()
         self.velocity = Velocity()
         self.radius = 10
+        self.angle = random.uniform(0, 360)
         self.center.x = random.uniform(0, SCREEN_WIDTH - self.radius)
         self.center.y = random.uniform(0, SCREEN_HEIGHT - self.radius)
-        self.velocity.dx = random.uniform(1, 5)
-        self.velocity.dy = random.uniform(1, 5)
+        self.velocity.dx = math.cos(math.radians(self.angle))
+        self.velocity.dy = math.cos(math.radians(self.angle))
         self.alive = True
-        self.angle = 45
-        self.width = self.radius * 2
-        self.height = self.radius * 2
+        self.img = "images/rock_big.png"
+        self.texture = arcade.load_texture(self.img)
+        self.width = self.texture.width
+        self.height = self.texture.height
         self.alpha = 255  # For transparency, 1 means transparent, 255 opaque/visible
-        
+
     def draw(self):
         ''' draw projectile using constant and member variables '''
-        arcade.draw_texture_rectangle(self.x, self.y, self.width, self.height, self.texture, self.angle, self.alpha)
+        arcade.draw_texture_rectangle(self.center.x, self.center.y, self.width, self.height, self.texture, self.angle, self.alpha)
 
     def advance(self):
         ''' projectile moves at the current velocity '''        
         self.center.x += self.velocity.dx
         self.center.y += self.velocity.dy
 
+    ''' @abstract? '''
     def hit(self):
         pass
 
     def is_off_screen(self, SCREEN_WIDTH, SCREEN_HEIGHT):
-        pass
-        # if self.center.x > SCREEN_WIDTH or self.center.x < 0 or self.center.y > SCREEN_HEIGHT or self.center.y < 0:
-            # wrap around screen
-
-
-class Laser(Projectile):
-    ''' laser bolts are shot from the ship toward the asteroids'''
-
-    def __init__(self):
-        super().__init__()
-        self.radius = LASER_RADIUS
-        self.velocity.dx = LASER_SPEED
-        self.velocity.dy = LASER_SPEED
-        self.angle = 0
-        self.alive = True
-        self.width = LASER_RADIUS * 2
-        self.height = LASER_RADIUS * 2
-        self.img = "images/laser.png"
-        self.texture = arcade.load_texture(self.img)
-
-    def fire(self, angle):
-        self.velocity.dx = math.cos(math.radians(self.angle)) * LASER_SPEED
-        self.velocity.dy = math.sin(math.radians(self.angle)) * LASER_SPEED
-
-    
-class Rock_big(Projectile):
-    def __init__(self):
-        super().__init__()
-        self.spin = BIG_ROCK_SPIN
-        self.radius = BIG_ROCK_RADIUS
-        self.width = BIG_ROCK_RADIUS * 2
-        self.height = BIG_ROCK_RADIUS * 2
-        self.speed = BIG_ROCK_SPEED
-        self.angle = 0
-        self.img = "images/rock_big.png"
-        self.texture = arcade.load_texture(self.img)
-
-    def draw(self):
-        print(self.center.x)        
-        arcade.draw_texture_rectangle(self.x, self.y, self.width, self.height, self.texture, self.angle, self.alpha)
-
-    def hit(self):
-        pass   # split big rock into 2 medium rocks
-
-    def rotate(self):       
-        pass
+        if self.center.x >= SCREEN_WIDTH + self.texture.width / 2:
+            self.center.x = 0        
+        if self.center.x <= 0 - self.texture.width / 2:
+            self.center.x = SCREEN_WIDTH
+        if self.center.y >= SCREEN_HEIGHT + self.texture.height / 2:
+            self.center.y = 0
+        if self.center.y <= 0 - self.texture.height / 2:
+            self.center.y = SCREEN_HEIGHT
         
-    def display(self):
-        print("Rock coordinates: ({}, {})".format(self.center.x, self.center.y))
-
-        print("velocity: ({}, {})".format(self.velocity.dx, self.velocity.dy))
-
 
 class Ship(Projectile):
     """
     The ship is an image that is manipulated by arrows up/down for speed and left/right for direction.
     """
-
     def __init__(self):
         super().__init__()
-
+        self.center.x = SCREEN_WIDTH / 2
+        self.center.y - SCREEN_HEIGHT / 2
         self.radius = SHIP_RADIUS
-        self.center.x = SCREEN_WIDTH // 2
-        self.center.y = SCREEN_HEIGHT // 2
-        self.angle = 0
         self.img = "images/ship1.png"
-        self.angle = 180
-        self.width = 30
-        self.height = 30
-        self.alpha = 255   # For transparency, 1 means not transparent
+        self.texture = arcade.load_texture(self.img)
 
     def advance(self):
         pass
@@ -159,6 +113,102 @@ class Ship(Projectile):
 
     def die(self):
         pass
+
+    def hit(self):
+        self.alive = False
+
+    
+class Rock_big(Projectile):
+    def __init__(self):
+        super().__init__()
+        self.radius = BIG_ROCK_RADIUS
+        self.velocity.dx = math.cos(math.radians(self.angle)) * BIG_ROCK_SPEED
+        self.velocity.dy = math.sin(math.radians(self.angle)) * BIG_ROCK_SPEED
+        self.speed = BIG_ROCK_SPEED
+        self.img = "images/rock_big.png"
+        self.texture = arcade.load_texture(self.img)
+        self.spin = BIG_ROCK_SPIN
+
+    def draw(self):      
+        arcade.draw_texture_rectangle(self.center.x, self.center.y, self.width, self.height, self.texture, self.angle, self.alpha)
+
+    def hit(self):
+        '''  # split big rock into 2 medium and 1 small rocks, original destroyed and removed from game '''
+        self.alive = False
+        medium1 = Rock_medium(5)
+        medium2 = Rock_medium(-5)
+        small1 = Rock_small(5,0)
+
+    def rotate(self):       
+        self.angle += self.spin
+
+    
+class Rock_medium(Rock_big):
+    def __init__(self, dy):
+        super().__init__()
+        self.radius = MEDIUM_ROCK_RADIUS
+        self.img = "images/rock_medium.png"
+        self.texture = arcade.load_texture(self.img)
+        self.spin = MEDIUM_ROCK_SPIN
+
+    def draw(self):       
+        arcade.draw_texture_rectangle(self.center.x, self.center.y, self.width, self.height, self.texture, self.angle, self.alpha)
+
+    def hit(self):
+        """ split medium rock into 2 small rocks, original destroyed and removed from game   """ 
+        self.alive = False
+        #  split rocks have +1.5 velocity up/right, 1.5 down/left
+        split1 = Rock_small(1.5, 1.5)
+        split2 = Rock_small(-1.5, -1.5)  
+
+    def rotate(self):       
+        self.angle += self.spin
+
+    
+class Rock_small(Rock_big):
+    def __init__(self, dx, dy):
+        super().__init__()
+        self.radius = SMALL_ROCK_RADIUS
+        self.img = "images/rock_small.png"
+        self.texture = arcade.load_texture(self.img)
+        self.spin = SMALL_ROCK_SPIN
+
+    def draw(self):       
+        arcade.draw_texture_rectangle(self.center.x, self.center.y, self.width, self.height, self.texture, self.angle, self.alpha)
+
+    def hit(self):
+        self.alive = False  # destroyed and removed from game
+
+    def rotate(self):       
+        self.angle += self.spin
+        
+    def display(self):
+        print("Rock coordinates: ({}, {})".format(self.center.x, self.center.y))
+        print("velocity: ({}, {})".format(self.velocity.dx, self.velocity.dy))
+
+
+class Laser(Ship):
+    """ laser bolts are shot from the ship toward the asteroids, start with the same velocity of the ship (speed and direction) plus 10 pixels per frame in the direction the ship is pointed. """
+
+    def __init__(self):
+        super().__init__()
+        self.radius = LASER_RADIUS
+        self.velocity.dx = LASER_SPEED
+        self.velocity.dy = LASER_SPEED
+        self.alive = True
+        self.width = LASER_RADIUS * 2
+        self.height = LASER_RADIUS * 2
+        self.img = "images/laser.png"
+        self.texture = arcade.load_texture(self.img)
+
+    def fire(self):
+        """  set the laser velocity = ship velocity + ship angle * them by the laser speed. """
+        self.velocity.dx = math.cos(math.radians(self.angle)) * LASER_SPEED
+        self.velocity.dy = math.sin(math.radians(self.angle)) * LASER_SPEED
+
+    def die(self):
+        if self.life >= LASER_LIFE:
+            self.alive = False
 
 
 class Game(arcade.Window):
@@ -186,6 +236,7 @@ class Game(arcade.Window):
 
         self.lasers = []
         self.rocks = []
+        self.create_rock()
 
     def on_draw(self):
         """
@@ -197,10 +248,10 @@ class Game(arcade.Window):
         arcade.start_render()
 
         # TODO: draw each object
-        #self.ship.draw()
+        self.ship.draw()
 
-        #for laser in self.lasers:
-        #    laser.draw()
+        for laser in self.lasers:
+            laser.draw()
 
         for rock in self.rocks:
             rock.draw()
@@ -212,25 +263,29 @@ class Game(arcade.Window):
         """
         self.check_keys()
 
-        # TODO: Tell everything to advance or move forward one step in time
+        # TODO: Tell everything to advance or move forward one frame (step in time)
         for rock in self.rocks:
+            pass
             rock.rotate()
+        for laser in self.lasers:
+            laser.life += 1
 
         # TODO: Check for collisions
 
-        #check_collisions()
+        self.check_collisions()
+        
+        for rock in self.rocks:
+            rock.advance()
 
     def create_rock(self):
         """
-        Creates initial 5 large rocks and adds them to the list.
+        Creates initial large rocks and adds them to the list.
         :return:
         """
 
-        for rock in range(INITIAL_ROCK_COUNT):
+        for rock in range(0, INITIAL_ROCK_COUNT):
             big_rock = Rock_big()
             self.rocks.append(big_rock)
-            rock.display()
-            print(self.rocks)
 
     def check_collisions(self):
         """
@@ -238,26 +293,24 @@ class Game(arcade.Window):
         Updates scores and removes dead items.
         :return:
         """
-
         for laser in self.lasers:
             for rock in self.rocks:
 
                 # Make sure they are both alive before checking for a collision
                 if laser.alive and rock.alive:
                     too_close = laser.radius + rock.radius
-
-                    if (abs(laser.center.x - rock.center.x) < too_close and abs(laser.center.y - rock.center.y) < too_close):
+                    """  sqrt((x1-x2)**2 + (y1-y2)**2)  """
+                    if math.sqrt((laser.center.x - rock.center.x) ** 2 + (laser.center.y - rock.center.y) ** 2) < too_close:
                         # its a hit!
-                        #laser.alive = False
-                        rock.hit() 
-
+                        laser.alive = False
+                        rock.hit()
                         # We will wait to remove the dead objects until after we
                         # finish going through the list
 
         # Now, check for anything that is dead, and remove it
-        self.cleanup_zombies()
+        self.bury_the_dead()
 
-    def cleanup_zombies(self):
+    def bury_the_dead(self):
         """
         Removes any dead lasers or rocks from the list.
         :return:
@@ -270,33 +323,19 @@ class Game(arcade.Window):
             if not rock.alive:
                 self.rocks.remove(rock)
 
-    def check_off_screen(self):
-        """
-        Checks to see if lasers or rocks have left the screen
-        and if so, removes them from their lists.
-        :return:
-        """
-        for laser in self.lasers:
-            if laser.is_off_screen(SCREEN_WIDTH, SCREEN_HEIGHT):
-                self.lasers.remove(laser)
-
-        for rock in self.rocks:
-            if rock.is_off_screen(SCREEN_WIDTH, SCREEN_HEIGHT):
-                self.rocks.remove(rock)
-
     def check_keys(self):
         """
         This function checks for keys that are being held down.
         You will need to put your own method calls in here.
         """
         if arcade.key.LEFT in self.held_keys:
-            pass
+            self.ship.turn_left()
 
         if arcade.key.RIGHT in self.held_keys:
-            pass
+            self.ship.turn_right()
 
         if arcade.key.UP in self.held_keys:
-            pass
+            self.ship.accelerate()
 
         if arcade.key.DOWN in self.held_keys:
             pass
