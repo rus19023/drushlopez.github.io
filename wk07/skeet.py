@@ -9,8 +9,8 @@ import math
 import random
 
 # These are Global constants to use throughout the game
-SCREEN_WIDTH = 600
-SCREEN_HEIGHT = 500
+SCREEN_WIDTH = 800
+SCREEN_HEIGHT = 800
 SCREEN_COLOR = arcade.color.AIR_FORCE_BLUE
 
 RIFLE_WIDTH = 100
@@ -137,7 +137,6 @@ class Bullet(Projectile):
 
     def fire(self, angle):
         self.angle = angle
-        self.alive = True
         self.velocity.dx = math.cos(math.radians(self.angle)) * BULLET_SPEED
         self.velocity.dy = math.sin(math.radians(self.angle)) * BULLET_SPEED
 

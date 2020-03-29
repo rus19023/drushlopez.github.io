@@ -225,7 +225,6 @@ class Game(arcade.Window):
         Creates initial 5 large rocks and adds them to the list.
         :return:
         """
-
         for rock in range(INITIAL_ROCK_COUNT):
             big_rock = Rock_big()
             self.rocks.append(big_rock)

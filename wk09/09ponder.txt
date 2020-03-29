@@ -4,12 +4,12 @@ Your Name:
 
 1. Describe a case where you think an error/exception could be used, but should _not_ be used.
 
-*** In the reading, there was the assert exception, which could be used for 0 division, but it should not be used because there is already the Zero Division exception for that.
+*** In the reading, there was the assert exception, which could be used for 0 division, but it should not be used because there is already the Zero Division exception for that. I also read somewhere that if you use except by itself, it will work, but probably not like one would expect.
 
 
 2. If method A calls B, and B calls C, and then an error is raised in function C, where can it potentially be caught (A, B, C, or all of the above)?
 
-*** I think it could be caught (and probably should be caught) in the first function, if that's where the error is.
+*** I think it could be caught (and probably should be caught) in the first function, if that's where the error is, but it probably could be caught in all of the above.
 
 
 3. What is the most interesting thing you learned as a part of your work for this class this week?
@@ -24,7 +24,7 @@ Your Name:
 
 5. Are there any topics from this week that you still feel uneasy about, or would like to learn more about?
 
-*** I want to learn more about hashes. It seems confusing but sounds like it will be helpful in cybersecurity.
+*** I want to learn more about hashes. It seems confusing right now, but sounds like it will be helpful in cybersecurity.
 
 
 6. How much time did you spend this week on each of the following:
@@ -34,6 +34,6 @@ Checkpoint A - 1 hour
 Checkpoint B - 1.5 hours
 Team Activity - 1.25 hours
 Data Structures Homework - 2 hours
-Prove Assignment - 6 hours
+Prove Assignment - 7 hours and still working on it...
 
 If you have other questions or comments for the instructor, please post them to Slack, either in the general channel if others can benefit, or as a direct message if the matter is more personal.
