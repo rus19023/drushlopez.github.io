@@ -1,0 +1,849 @@
+﻿LocationType,Location,TimeFrame,DataFormat,Data
+Nation,United States,2000,Number,2127000
+Nation,United States,2000,Percent,0.1
+Nation,United States,2001,Percent,0.09
+Nation,United States,2002,Number,2121000
+Nation,United States,2001,Number,2079000
+Nation,United States,2002,Percent,0.1
+Nation,United States,2003,Percent,0.1
+Nation,United States,2004,Number,2373000
+Nation,United States,2003,Number,2308000
+Nation,United States,2004,Percent,0.1
+Nation,United States,2005,Percent,0.1
+Nation,United States,2006,Number,2094000
+Nation,United States,2005,Number,2316000
+Nation,United States,2006,Percent,0.09
+Nation,United States,2007,Percent,0.09
+Nation,United States,2007,Number,2167000
+State,Alabama,2007,Number,42000
+State,Alabama,2007,Percent,0.12
+State,Alabama,2006,Percent,0.11
+State,Alabama,2005,Number,43000
+State,Alabama,2006,Number,38000
+State,Alabama,2004,Percent,0.11
+State,Alabama,2005,Percent,0.13
+State,Alabama,2003,Number,50000
+State,Alabama,2004,Number,36000
+State,Alabama,2003,Percent,0.15
+State,Alabama,2002,Percent,0.12
+State,Alabama,2002,Number,39000
+State,Alabama,2001,Number,33000
+State,Alabama,2000,Percent,0.1
+State,Alabama,2001,Percent,0.1
+State,Alabama,2000,Number,33000
+State,Alaska,2000,Number,6000
+State,Alaska,2001,Percent,0.06
+State,Alaska,2000,Percent,0.11
+State,Alaska,2001,Number,3000
+State,Alaska,2002,Number,5000
+State,Alaska,2003,Percent,0.09
+State,Alaska,2002,Percent,0.09
+State,Alaska,2003,Number,5000
+State,Alaska,2004,Number,4000
+State,Alaska,2005,Percent,0.1
+State,Alaska,2004,Percent,0.06
+State,Alaska,2006,Number,4000
+State,Alaska,2005,Number,5000
+State,Alaska,2006,Percent,0.08
+State,Alaska,2007,Percent,0.08
+State,Alaska,2007,Number,5000
+State,Arizona,2007,Number,58000
+State,Arizona,2007,Percent,0.1
+State,Arizona,2006,Percent,0.09
+State,Arizona,2005,Number,52000
+State,Arizona,2006,Number,49000
+State,Arizona,2004,Percent,0.11
+State,Arizona,2005,Percent,0.1
+State,Arizona,2004,Number,58000
+State,Arizona,2003,Number,63000
+State,Arizona,2003,Percent,0.13
+State,Arizona,2002,Number,55000
+State,Arizona,2001,Number,52000
+State,Arizona,2002,Percent,0.12
+State,Arizona,2000,Percent,0.13
+State,Arizona,2001,Percent,0.11
+State,Arizona,2000,Number,56000
+State,Arkansas,2000,Number,24000
+State,Arkansas,2001,Percent,0.06
+State,Arkansas,2000,Percent,0.12
+State,Arkansas,2002,Percent,0.1
+State,Arkansas,2001,Number,12000
+State,Arkansas,2002,Number,20000
+State,Arkansas,2003,Percent,0.15
+State,Arkansas,2003,Number,30000
+State,Arkansas,2004,Number,23000
+State,Arkansas,2005,Percent,0.11
+State,Arkansas,2004,Percent,0.12
+State,Arkansas,2006,Number,23000
+State,Arkansas,2005,Number,22000
+State,Arkansas,2006,Percent,0.1
+State,Arkansas,2007,Percent,0.11
+State,Arkansas,2007,Number,24000
+State,California,2007,Number,302000
+State,California,2007,Percent,0.1
+State,California,2006,Percent,0.1
+State,California,2005,Number,331000
+State,California,2006,Number,296000
+State,California,2004,Percent,0.11
+State,California,2005,Percent,0.11
+State,California,2004,Number,328000
+State,California,2003,Number,326000
+State,California,2003,Percent,0.11
+State,California,2002,Number,299000
+State,California,2001,Number,328000
+State,California,2002,Percent,0.1
+State,California,2000,Percent,0.1
+State,California,2001,Percent,0.11
+State,California,2000,Number,299000
+State,Colorado,2000,Number,22000
+State,Colorado,2001,Percent,0.09
+State,Colorado,2000,Percent,0.06
+State,Colorado,2002,Percent,0.07
+State,Colorado,2001,Number,31000
+State,Colorado,2002,Number,26000
+State,Colorado,2003,Percent,0.06
+State,Colorado,2003,Number,24000
+State,Colorado,2004,Number,19000
+State,Colorado,2005,Percent,0.07
+State,Colorado,2004,Percent,0.05
+State,Colorado,2006,Number,32000
+State,Colorado,2005,Number,29000
+State,Colorado,2006,Percent,0.08
+State,Colorado,2007,Percent,0.07
+State,Colorado,2007,Number,29000
+State,Connecticut,2007,Number,19000
+State,Connecticut,2007,Percent,0.08
+State,Connecticut,2006,Percent,0.07
+State,Connecticut,2005,Number,21000
+State,Connecticut,2006,Number,16000
+State,Connecticut,2004,Percent,0.09
+State,Connecticut,2005,Percent,0.08
+State,Connecticut,2004,Number,21000
+State,Connecticut,2003,Number,18000
+State,Connecticut,2003,Percent,0.08
+State,Connecticut,2002,Number,19000
+State,Connecticut,2001,Number,15000
+State,Connecticut,2002,Percent,0.08
+State,Connecticut,2000,Percent,0.1
+State,Connecticut,2001,Percent,0.06
+State,Connecticut,2000,Number,26000
+State,Delaware,2000,Number,5000
+State,Delaware,2001,Percent,0.1
+State,Delaware,2000,Percent,0.09
+State,Delaware,2002,Percent,0.07
+State,Delaware,2001,Number,6000
+State,Delaware,2002,Number,4000
+State,Delaware,2003,Percent,0.11
+State,Delaware,2003,Number,7000
+State,Delaware,2004,Number,5000
+State,Delaware,2005,Percent,0.1
+State,Delaware,2004,Percent,0.08
+State,Delaware,2006,Number,5000
+State,Delaware,2005,Number,6000
+State,Delaware,2006,Percent,0.07
+State,Delaware,2007,Percent,0.08
+State,Delaware,2007,Number,5000
+City,District of Columbia,2007,Number,S
+City,District of Columbia,2007,Percent,S
+City,District of Columbia,2006,Percent,S
+City,District of Columbia,2005,Number,S
+City,District of Columbia,2006,Number,S
+City,District of Columbia,2005,Percent,S
+City,District of Columbia,2004,Percent,0.15
+City,District of Columbia,2004,Number,6000
+City,District of Columbia,2003,Number,7000
+City,District of Columbia,2003,Percent,0.18
+City,District of Columbia,2002,Number,6000
+City,District of Columbia,2001,Number,7000
+City,District of Columbia,2002,Percent,0.17
+City,District of Columbia,2000,Percent,0.17
+City,District of Columbia,2001,Percent,0.2
+City,District of Columbia,2000,Number,6000
+State,Florida,2000,Number,98000
+State,Florida,2001,Percent,0.08
+State,Florida,2000,Percent,0.09
+State,Florida,2002,Percent,0.1
+State,Florida,2002,Number,116000
+State,Florida,2001,Number,91000
+State,Florida,2003,Percent,0.1
+State,Florida,2003,Number,122000
+State,Florida,2004,Number,118000
+State,Florida,2004,Percent,0.1
+State,Florida,2005,Percent,0.1
+State,Florida,2006,Number,112000
+State,Florida,2005,Number,125000
+State,Florida,2006,Percent,0.09
+State,Florida,2007,Percent,0.09
+State,Florida,2007,Number,114000
+State,Georgia,2007,Number,78000
+State,Georgia,2007,Percent,0.09
+State,Georgia,2006,Percent,0.09
+State,Georgia,2005,Number,78000
+State,Georgia,2006,Number,72000
+State,Georgia,2005,Percent,0.1
+State,Georgia,2004,Percent,0.09
+State,Georgia,2004,Number,72000
+State,Georgia,2003,Number,76000
+State,Georgia,2003,Percent,0.1
+State,Georgia,2001,Number,71000
+State,Georgia,2002,Number,57000
+State,Georgia,2002,Percent,0.08
+State,Georgia,2000,Percent,0.1
+State,Georgia,2001,Percent,0.1
+State,Georgia,2000,Number,70000
+State,Hawaii,2000,Number,8000
+State,Hawaii,2001,Percent,0.1
+State,Hawaii,2000,Percent,0.1
+State,Hawaii,2002,Percent,0.12
+State,Hawaii,2002,Number,11000
+State,Hawaii,2001,Number,10000
+State,Hawaii,2003,Percent,0.1
+State,Hawaii,2003,Number,9000
+State,Hawaii,2004,Number,12000
+State,Hawaii,2004,Percent,0.12
+State,Hawaii,2005,Percent,0.1
+State,Hawaii,2006,Number,7000
+State,Hawaii,2005,Number,10000
+State,Hawaii,2006,Percent,0.07
+State,Hawaii,2007,Percent,0.1
+State,Hawaii,2007,Number,10000
+State,Idaho,2007,Number,6000
+State,Idaho,2007,Percent,0.04
+State,Idaho,2006,Percent,0.05
+State,Idaho,2005,Number,8000
+State,Idaho,2006,Number,7000
+State,Idaho,2005,Percent,0.06
+State,Idaho,2004,Percent,0.06
+State,Idaho,2004,Number,7000
+State,Idaho,2003,Number,7000
+State,Idaho,2003,Percent,0.06
+State,Idaho,2001,Number,7000
+State,Idaho,2002,Number,5000
+State,Idaho,2002,Percent,0.05
+State,Idaho,2000,Percent,0.08
+State,Idaho,2001,Percent,0.06
+State,Idaho,2000,Number,9000
+State,Illinois,2000,Number,91000
+State,Illinois,2001,Percent,0.09
+State,Illinois,2000,Percent,0.09
+State,Illinois,2002,Percent,0.08
+State,Illinois,2002,Number,79000
+State,Illinois,2001,Number,91000
+State,Illinois,2003,Percent,0.09
+State,Illinois,2003,Number,93000
+State,Illinois,2004,Number,102000
+State,Illinois,2004,Percent,0.1
+State,Illinois,2005,Percent,0.09
+State,Illinois,2006,Number,84000
+State,Illinois,2005,Number,94000
+State,Illinois,2006,Percent,0.08
+State,Illinois,2007,Percent,0.08
+State,Illinois,2007,Number,81000
+State,Indiana,2007,Number,44000
+State,Indiana,2007,Percent,0.09
+State,Indiana,2006,Percent,0.08
+State,Indiana,2005,Number,47000
+State,Indiana,2006,Number,42000
+State,Indiana,2005,Percent,0.1
+State,Indiana,2004,Percent,0.09
+State,Indiana,2004,Number,45000
+State,Indiana,2003,Number,46000
+State,Indiana,2003,Percent,0.09
+State,Indiana,2001,Number,42000
+State,Indiana,2002,Number,45000
+State,Indiana,2002,Percent,0.09
+State,Indiana,2000,Percent,0.09
+State,Indiana,2001,Percent,0.09
+State,Indiana,2000,Number,44000
+State,Iowa,2000,Number,11000
+State,Iowa,2001,Percent,0.06
+State,Iowa,2000,Percent,0.05
+State,Iowa,2002,Percent,0.07
+State,Iowa,2002,Number,15000
+State,Iowa,2001,Number,13000
+State,Iowa,2003,Percent,0.08
+State,Iowa,2003,Number,16000
+State,Iowa,2004,Number,11000
+State,Iowa,2004,Percent,0.05
+State,Iowa,2005,Percent,0.08
+State,Iowa,2006,Number,14000
+State,Iowa,2005,Number,16000
+State,Iowa,2006,Percent,0.06
+State,Iowa,2007,Percent,0.07
+State,Iowa,2007,Number,16000
+State,Kansas,2007,Number,15000
+State,Kansas,2007,Percent,0.07
+State,Kansas,2006,Percent,0.07
+State,Kansas,2005,Number,17000
+State,Kansas,2006,Number,15000
+State,Kansas,2005,Percent,0.08
+State,Kansas,2004,Percent,0.06
+State,Kansas,2004,Number,13000
+State,Kansas,2003,Number,12000
+State,Kansas,2003,Percent,0.06
+State,Kansas,2001,Number,13000
+State,Kansas,2002,Number,15000
+State,Kansas,2002,Percent,0.07
+State,Kansas,2000,Percent,0.07
+State,Kansas,2001,Percent,0.06
+State,Kansas,2000,Number,15000
+State,Kentucky,2000,Number,28000
+State,Kentucky,2001,Percent,0.08
+State,Kentucky,2000,Percent,0.1
+State,Kentucky,2002,Percent,0.11
+State,Kentucky,2002,Number,33000
+State,Kentucky,2001,Number,24000
+State,Kentucky,2003,Percent,0.13
+State,Kentucky,2003,Number,41000
+State,Kentucky,2004,Number,44000
+State,Kentucky,2004,Percent,0.14
+State,Kentucky,2005,Percent,0.12
+State,Kentucky,2006,Number,36000
+State,Kentucky,2005,Number,37000
+State,Kentucky,2006,Percent,0.11
+State,Kentucky,2007,Percent,0.11
+State,Kentucky,2007,Number,36000
+State,Louisiana,2007,Number,46000
+State,Louisiana,2007,Percent,0.14
+State,Louisiana,2005,Number,49000
+State,Louisiana,2006,Percent,0.13
+State,Louisiana,2006,Number,45000
+State,Louisiana,2005,Percent,0.14
+State,Louisiana,2004,Percent,0.15
+State,Louisiana,2004,Number,54000
+State,Louisiana,2003,Number,59000
+State,Louisiana,2003,Percent,0.16
+State,Louisiana,2001,Number,49000
+State,Louisiana,2002,Number,42000
+State,Louisiana,2002,Percent,0.12
+State,Louisiana,2000,Percent,0.13
+State,Louisiana,2001,Percent,0.13
+State,Louisiana,2000,Number,48000
+State,Maine,2000,Number,5000
+State,Maine,2000,Percent,0.06
+State,Maine,2001,Percent,0.1
+State,Maine,2002,Percent,0.11
+State,Maine,2002,Number,9000
+State,Maine,2001,Number,7000
+State,Maine,2003,Percent,0.1
+State,Maine,2003,Number,7000
+State,Maine,2004,Number,12000
+State,Maine,2004,Percent,0.15
+State,Maine,2005,Percent,0.09
+State,Maine,2006,Number,8000
+State,Maine,2006,Percent,0.1
+State,Maine,2005,Number,7000
+State,Maine,2007,Percent,0.09
+State,Maine,2007,Number,7000
+State,Maryland,2007,Number,26000
+State,Maryland,2007,Percent,0.06
+State,Maryland,2005,Number,32000
+State,Maryland,2006,Percent,0.07
+State,Maryland,2006,Number,29000
+State,Maryland,2005,Percent,0.07
+State,Maryland,2004,Percent,0.09
+State,Maryland,2004,Number,40000
+State,Maryland,2003,Percent,0.09
+State,Maryland,2003,Number,37000
+State,Maryland,2001,Number,28000
+State,Maryland,2002,Number,31000
+State,Maryland,2002,Percent,0.07
+State,Maryland,2001,Percent,0.07
+State,Maryland,2000,Percent,0.1
+State,Maryland,2000,Number,39000
+State,Massachusetts,2000,Number,46000
+State,Massachusetts,2000,Percent,0.1
+State,Massachusetts,2001,Percent,0.08
+State,Massachusetts,2002,Percent,0.1
+State,Massachusetts,2002,Number,44000
+State,Massachusetts,2001,Number,35000
+State,Massachusetts,2003,Number,42000
+State,Massachusetts,2003,Percent,0.09
+State,Massachusetts,2004,Number,47000
+State,Massachusetts,2004,Percent,0.1
+State,Massachusetts,2005,Percent,0.11
+State,Massachusetts,2006,Number,36000
+State,Massachusetts,2006,Percent,0.08
+State,Massachusetts,2005,Number,49000
+State,Massachusetts,2007,Percent,0.08
+State,Massachusetts,2007,Number,34000
+State,Michigan,2007,Number,71000
+State,Michigan,2007,Percent,0.1
+State,Michigan,2005,Number,72000
+State,Michigan,2006,Percent,0.08
+State,Michigan,2006,Number,61000
+State,Michigan,2005,Percent,0.1
+State,Michigan,2004,Percent,0.09
+State,Michigan,2004,Number,67000
+State,Michigan,2003,Percent,0.09
+State,Michigan,2003,Number,68000
+State,Michigan,2001,Number,61000
+State,Michigan,2002,Number,66000
+State,Michigan,2002,Percent,0.09
+State,Michigan,2001,Percent,0.09
+State,Michigan,2000,Percent,0.09
+State,Michigan,2000,Number,70000
+State,Minnesota,2000,Number,24000
+State,Minnesota,2000,Percent,0.06
+State,Minnesota,2001,Percent,0.06
+State,Minnesota,2002,Percent,0.05
+State,Minnesota,2002,Number,18000
+State,Minnesota,2001,Number,20000
+State,Minnesota,2003,Number,28000
+State,Minnesota,2003,Percent,0.07
+State,Minnesota,2004,Number,38000
+State,Minnesota,2004,Percent,0.1
+State,Minnesota,2005,Percent,0.07
+State,Minnesota,2006,Number,23000
+State,Minnesota,2006,Percent,0.06
+State,Minnesota,2005,Number,26000
+State,Minnesota,2007,Percent,0.05
+State,Minnesota,2007,Number,20000
+State,Mississippi,2007,Number,30000
+State,Mississippi,2007,Percent,0.12
+State,Mississippi,2005,Number,30000
+State,Mississippi,2006,Percent,0.14
+State,Mississippi,2006,Number,32000
+State,Mississippi,2005,Percent,0.13
+State,Mississippi,2004,Percent,0.13
+State,Mississippi,2004,Number,29000
+State,Mississippi,2003,Percent,0.16
+State,Mississippi,2003,Number,38000
+State,Mississippi,2001,Number,22000
+State,Mississippi,2002,Number,28000
+State,Mississippi,2002,Percent,0.12
+State,Mississippi,2001,Percent,0.09
+State,Mississippi,2000,Percent,0.11
+State,Mississippi,2000,Number,26000
+State,Missouri,2000,Number,37000
+State,Missouri,2000,Percent,0.09
+State,Missouri,2001,Percent,0.08
+State,Missouri,2002,Percent,0.08
+State,Missouri,2002,Number,32000
+State,Missouri,2001,Number,33000
+State,Missouri,2003,Number,36000
+State,Missouri,2003,Percent,0.08
+State,Missouri,2004,Number,45000
+State,Missouri,2004,Percent,0.1
+State,Missouri,2005,Percent,0.08
+State,Missouri,2006,Number,39000
+State,Missouri,2006,Percent,0.09
+State,Missouri,2005,Number,35000
+State,Missouri,2007,Percent,0.09
+State,Missouri,2007,Number,38000
+State,Montana,2007,Number,5000
+State,Montana,2007,Percent,0.07
+State,Montana,2005,Number,5000
+State,Montana,2006,Percent,0.06
+State,Montana,2006,Number,4000
+State,Montana,2005,Percent,0.08
+State,Montana,2004,Percent,0.07
+State,Montana,2004,Number,5000
+State,Montana,2003,Percent,0.07
+State,Montana,2003,Number,4000
+State,Montana,2001,Number,5000
+State,Montana,2002,Number,6000
+State,Montana,2002,Percent,0.1
+State,Montana,2001,Percent,0.08
+State,Montana,2000,Percent,0.07
+State,Montana,2000,Number,4000
+State,Nebraska,2000,Number,7000
+State,Nebraska,2000,Percent,0.06
+State,Nebraska,2001,Percent,0.08
+State,Nebraska,2002,Percent,0.08
+State,Nebraska,2002,Number,10000
+State,Nebraska,2001,Number,11000
+State,Nebraska,2003,Number,7000
+State,Nebraska,2003,Percent,0.05
+State,Nebraska,2004,Number,7000
+State,Nebraska,2004,Percent,0.05
+State,Nebraska,2005,Percent,0.07
+State,Nebraska,2006,Number,7000
+State,Nebraska,2006,Percent,0.05
+State,Nebraska,2005,Number,10000
+State,Nebraska,2007,Percent,0.04
+State,Nebraska,2007,Number,6000
+State,Nevada,2007,Number,17000
+State,Nevada,2007,Percent,0.08
+State,Nevada,2005,Number,17000
+State,Nevada,2006,Percent,0.1
+State,Nevada,2006,Number,21000
+State,Nevada,2005,Percent,0.09
+State,Nevada,2004,Percent,0.15
+State,Nevada,2004,Number,30000
+State,Nevada,2003,Percent,0.09
+State,Nevada,2003,Number,18000
+State,Nevada,2001,Number,18000
+State,Nevada,2002,Number,16000
+State,Nevada,2002,Percent,0.09
+State,Nevada,2001,Percent,0.1
+State,Nevada,2000,Percent,0.08
+State,Nevada,2000,Number,14000
+State,New Hampshire,2000,Number,6000
+State,New Hampshire,2000,Percent,0.07
+State,New Hampshire,2001,Percent,0.05
+State,New Hampshire,2002,Percent,0.04
+State,New Hampshire,2002,Number,3000
+State,New Hampshire,2001,Number,4000
+State,New Hampshire,2003,Number,5000
+State,New Hampshire,2003,Percent,0.05
+State,New Hampshire,2004,Number,7000
+State,New Hampshire,2004,Percent,0.08
+State,New Hampshire,2005,Percent,0.08
+State,New Hampshire,2006,Number,5000
+State,New Hampshire,2006,Percent,0.06
+State,New Hampshire,2005,Number,6000
+State,New Hampshire,2007,Percent,0.05
+State,New Hampshire,2007,Number,4000
+State,New Jersey,2007,Number,46000
+State,New Jersey,2007,Percent,0.07
+State,New Jersey,2006,Percent,0.07
+State,New Jersey,2006,Number,47000
+State,New Jersey,2005,Number,54000
+State,New Jersey,2005,Percent,0.08
+State,New Jersey,2004,Percent,0.07
+State,New Jersey,2004,Number,48000
+State,New Jersey,2003,Percent,0.09
+State,New Jersey,2003,Number,59000
+State,New Jersey,2001,Number,46000
+State,New Jersey,2002,Number,60000
+State,New Jersey,2002,Percent,0.09
+State,New Jersey,2001,Percent,0.08
+State,New Jersey,2000,Percent,0.08
+State,New Jersey,2000,Number,51000
+State,New Mexico,2000,Number,18000
+State,New Mexico,2000,Percent,0.12
+State,New Mexico,2001,Percent,0.08
+State,New Mexico,2002,Percent,0.13
+State,New Mexico,2002,Number,20000
+State,New Mexico,2001,Number,12000
+State,New Mexico,2003,Number,16000
+State,New Mexico,2003,Percent,0.1
+State,New Mexico,2004,Number,14000
+State,New Mexico,2004,Percent,0.09
+State,New Mexico,2005,Percent,0.14
+State,New Mexico,2005,Number,21000
+State,New Mexico,2006,Number,20000
+State,New Mexico,2006,Percent,0.12
+State,New Mexico,2007,Percent,0.14
+State,New Mexico,2007,Number,23000
+State,New York,2007,Number,148000
+State,New York,2007,Percent,0.11
+State,New York,2006,Percent,0.11
+State,New York,2006,Number,148000
+State,New York,2005,Number,166000
+State,New York,2005,Percent,0.12
+State,New York,2004,Percent,0.13
+State,New York,2004,Number,187000
+State,New York,2003,Percent,0.12
+State,New York,2003,Number,168000
+State,New York,2001,Number,179000
+State,New York,2002,Number,167000
+State,New York,2002,Percent,0.12
+State,New York,2001,Percent,0.13
+State,New York,2000,Percent,0.12
+State,New York,2000,Number,168000
+State,North Carolina,2000,Number,50000
+State,North Carolina,2000,Percent,0.08
+State,North Carolina,2001,Percent,0.1
+State,North Carolina,2002,Percent,0.1
+State,North Carolina,2002,Number,67000
+State,North Carolina,2001,Number,65000
+State,North Carolina,2003,Number,68000
+State,North Carolina,2003,Percent,0.1
+State,North Carolina,2004,Number,65000
+State,North Carolina,2004,Percent,0.1
+State,North Carolina,2005,Percent,0.09
+State,North Carolina,2005,Number,65000
+State,North Carolina,2006,Number,57000
+State,North Carolina,2006,Percent,0.08
+State,North Carolina,2007,Percent,0.1
+State,North Carolina,2007,Number,69000
+State,North Dakota,2007,Number,4000
+State,North Dakota,2007,Percent,0.08
+State,North Dakota,2006,Percent,0.06
+State,North Dakota,2006,Number,3000
+State,North Dakota,2005,Number,4000
+State,North Dakota,2005,Percent,0.09
+State,North Dakota,2004,Percent,0.07
+State,North Dakota,2004,Number,3000
+State,North Dakota,2003,Percent,0.06
+State,North Dakota,2003,Number,2000
+State,North Dakota,2001,Number,3000
+State,North Dakota,2002,Number,4000
+State,North Dakota,2002,Percent,0.09
+State,North Dakota,2001,Percent,0.09
+State,North Dakota,2000,Percent,0.07
+State,North Dakota,2000,Number,3000
+State,Ohio,2000,Number,81000
+State,Ohio,2000,Percent,0.09
+State,Ohio,2001,Percent,0.09
+State,Ohio,2002,Percent,0.1
+State,Ohio,2002,Number,89000
+State,Ohio,2001,Number,78000
+State,Ohio,2003,Number,89000
+State,Ohio,2003,Percent,0.11
+State,Ohio,2004,Number,87000
+State,Ohio,2004,Percent,0.1
+State,Ohio,2005,Percent,0.11
+State,Ohio,2005,Number,91000
+State,Ohio,2006,Number,70000
+State,Ohio,2006,Percent,0.08
+State,Ohio,2007,Percent,0.09
+State,Ohio,2007,Number,75000
+State,Oklahoma,2007,Number,31000
+State,Oklahoma,2007,Percent,0.1
+State,Oklahoma,2006,Percent,0.09
+State,Oklahoma,2006,Number,25000
+State,Oklahoma,2005,Number,28000
+State,Oklahoma,2005,Percent,0.1
+State,Oklahoma,2004,Percent,0.16
+State,Oklahoma,2004,Number,44000
+State,Oklahoma,2003,Percent,0.15
+State,Oklahoma,2003,Number,40000
+State,Oklahoma,2001,Number,20000
+State,Oklahoma,2002,Number,29000
+State,Oklahoma,2002,Percent,0.11
+State,Oklahoma,2001,Percent,0.08
+State,Oklahoma,2000,Percent,0.08
+State,Oklahoma,2000,Number,23000
+State,Oregon,2000,Number,30000
+State,Oregon,2000,Percent,0.11
+State,Oregon,2001,Percent,0.09
+State,Oregon,2002,Percent,0.07
+State,Oregon,2002,Number,18000
+State,Oregon,2001,Number,24000
+State,Oregon,2003,Number,21000
+State,Oregon,2003,Percent,0.08
+State,Oregon,2004,Number,23000
+State,Oregon,2004,Percent,0.09
+State,Oregon,2005,Percent,0.08
+State,Oregon,2005,Number,21000
+State,Oregon,2006,Number,22000
+State,Oregon,2006,Percent,0.08
+State,Oregon,2007,Percent,0.08
+State,Oregon,2007,Number,21000
+State,Pennsylvania,2007,Percent,0.1
+State,Pennsylvania,2007,Number,86000
+State,Pennsylvania,2006,Percent,0.1
+State,Pennsylvania,2006,Number,80000
+State,Pennsylvania,2005,Number,91000
+State,Pennsylvania,2005,Percent,0.11
+State,Pennsylvania,2004,Percent,0.12
+State,Pennsylvania,2004,Number,99000
+State,Pennsylvania,2003,Percent,0.1
+State,Pennsylvania,2003,Number,81000
+State,Pennsylvania,2001,Number,75000
+State,Pennsylvania,2002,Number,72000
+State,Pennsylvania,2002,Percent,0.09
+State,Pennsylvania,2001,Percent,0.09
+State,Pennsylvania,2000,Percent,0.08
+State,Pennsylvania,2000,Number,70000
+State,Rhode Island,2000,Number,10000
+State,Rhode Island,2000,Percent,0.13
+State,Rhode Island,2001,Percent,0.13
+State,Rhode Island,2002,Percent,0.13
+State,Rhode Island,2002,Number,9000
+State,Rhode Island,2001,Number,9000
+State,Rhode Island,2003,Number,8000
+State,Rhode Island,2003,Percent,0.11
+State,Rhode Island,2004,Number,10000
+State,Rhode Island,2004,Percent,0.15
+State,Rhode Island,2005,Percent,0.1
+State,Rhode Island,2005,Number,7000
+State,Rhode Island,2006,Number,7000
+State,Rhode Island,2006,Percent,0.1
+State,Rhode Island,2007,Number,7000
+State,Rhode Island,2007,Percent,0.09
+State,South Carolina,2007,Percent,0.11
+State,South Carolina,2007,Number,35000
+State,South Carolina,2006,Percent,0.1
+State,South Carolina,2006,Number,32000
+State,South Carolina,2005,Number,34000
+State,South Carolina,2005,Percent,0.11
+State,South Carolina,2004,Number,30000
+State,South Carolina,2004,Percent,0.09
+State,South Carolina,2003,Percent,0.11
+State,South Carolina,2003,Number,33000
+State,South Carolina,2001,Number,31000
+State,South Carolina,2002,Number,32000
+State,South Carolina,2002,Percent,0.11
+State,South Carolina,2001,Percent,0.1
+State,South Carolina,2000,Percent,0.12
+State,South Carolina,2000,Number,37000
+State,South Dakota,2000,Number,4000
+State,South Dakota,2000,Percent,0.07
+State,South Dakota,2001,Percent,0.07
+State,South Dakota,2001,Number,4000
+State,South Dakota,2002,Percent,0.08
+State,South Dakota,2002,Number,5000
+State,South Dakota,2003,Number,4000
+State,South Dakota,2003,Percent,0.07
+State,South Dakota,2004,Percent,0.06
+State,South Dakota,2004,Number,4000
+State,South Dakota,2005,Percent,0.08
+State,South Dakota,2005,Number,5000
+State,South Dakota,2006,Number,4000
+State,South Dakota,2006,Percent,0.07
+State,South Dakota,2007,Number,5000
+State,South Dakota,2007,Percent,0.09
+State,Tennessee,2007,Percent,0.11
+State,Tennessee,2007,Number,49000
+State,Tennessee,2006,Percent,0.11
+State,Tennessee,2006,Number,51000
+State,Tennessee,2005,Number,50000
+State,Tennessee,2005,Percent,0.11
+State,Tennessee,2004,Number,52000
+State,Tennessee,2004,Percent,0.12
+State,Tennessee,2003,Percent,0.12
+State,Tennessee,2003,Number,51000
+State,Tennessee,2002,Number,42000
+State,Tennessee,2002,Percent,0.1
+State,Tennessee,2001,Number,41000
+State,Tennessee,2001,Percent,0.09
+State,Tennessee,2000,Percent,0.11
+State,Tennessee,2000,Number,48000
+State,Texas,2000,Number,201000
+State,Texas,2000,Percent,0.11
+State,Texas,2001,Percent,0.1
+State,Texas,2001,Number,201000
+State,Texas,2002,Percent,0.1
+State,Texas,2002,Number,204000
+State,Texas,2003,Number,225000
+State,Texas,2003,Percent,0.11
+State,Texas,2004,Percent,0.12
+State,Texas,2004,Number,241000
+State,Texas,2005,Percent,0.11
+State,Texas,2005,Number,229000
+State,Texas,2006,Number,225000
+State,Texas,2006,Percent,0.1
+State,Texas,2007,Number,226000
+State,Texas,2007,Percent,0.1
+State,Utah,2007,Percent,0.05
+State,Utah,2007,Number,16000
+State,Utah,2006,Percent,0.05
+State,Utah,2006,Number,14000
+State,Utah,2005,Number,13000
+State,Utah,2005,Percent,0.05
+State,Utah,2004,Number,17000
+State,Utah,2004,Percent,0.06
+State,Utah,2003,Percent,0.06
+State,Utah,2003,Number,15000
+State,Utah,2002,Number,15000
+State,Utah,2002,Percent,0.06
+State,Utah,2001,Number,11000
+State,Utah,2001,Percent,0.05
+State,Utah,2000,Percent,0.08
+State,Utah,2000,Number,19000
+State,Vermont,2000,Number,5000
+State,Vermont,2000,Percent,0.12
+State,Vermont,2001,Percent,0.08
+State,Vermont,2001,Number,3000
+State,Vermont,2002,Percent,0.1
+State,Vermont,2002,Number,4000
+State,Vermont,2003,Number,2000
+State,Vermont,2003,Percent,0.07
+State,Vermont,2004,Percent,0.09
+State,Vermont,2004,Number,3000
+State,Vermont,2005,Percent,0.09
+State,Vermont,2005,Number,3000
+State,Vermont,2006,Number,3000
+State,Vermont,2006,Percent,0.07
+State,Vermont,2007,Number,3000
+State,Vermont,2007,Percent,0.08
+State,Virginia,2007,Percent,0.07
+State,Virginia,2007,Number,41000
+State,Virginia,2006,Percent,0.07
+State,Virginia,2006,Number,38000
+State,Virginia,2005,Number,55000
+State,Virginia,2005,Percent,0.1
+State,Virginia,2004,Number,49000
+State,Virginia,2004,Percent,0.09
+State,Virginia,2003,Percent,0.09
+State,Virginia,2003,Number,49000
+State,Virginia,2002,Number,43000
+State,Virginia,2002,Percent,0.08
+State,Virginia,2001,Number,48000
+State,Virginia,2001,Percent,0.09
+State,Virginia,2000,Percent,0.07
+State,Virginia,2000,Number,39000
+State,Washington,2000,Number,45000
+State,Washington,2000,Percent,0.1
+State,Washington,2001,Percent,0.09
+State,Washington,2001,Number,43000
+State,Washington,2002,Percent,0.08
+State,Washington,2002,Number,37000
+State,Washington,2003,Number,35000
+State,Washington,2003,Percent,0.08
+State,Washington,2004,Percent,0.1
+State,Washington,2004,Number,47000
+State,Washington,2005,Percent,0.09
+State,Washington,2005,Number,39000
+State,Washington,2006,Number,38000
+State,Washington,2006,Percent,0.08
+State,Washington,2007,Number,42000
+State,Washington,2007,Percent,0.09
+State,West Virginia,2007,Percent,0.15
+State,West Virginia,2007,Number,17000
+State,West Virginia,2006,Percent,0.15
+State,West Virginia,2006,Number,18000
+State,West Virginia,2005,Number,15000
+State,West Virginia,2005,Percent,0.13
+State,West Virginia,2004,Number,15000
+State,West Virginia,2004,Percent,0.13
+State,West Virginia,2003,Percent,0.13
+State,West Virginia,2003,Number,15000
+State,West Virginia,2002,Number,14000
+State,West Virginia,2002,Percent,0.12
+State,West Virginia,2001,Number,15000
+State,West Virginia,2001,Percent,0.13
+State,West Virginia,2000,Percent,0.17
+State,West Virginia,2000,Number,19000
+State,Wisconsin,2000,Number,27000
+State,Wisconsin,2000,Percent,0.07
+State,Wisconsin,2001,Percent,0.07
+State,Wisconsin,2001,Number,28000
+State,Wisconsin,2002,Percent,0.09
+State,Wisconsin,2002,Number,35000
+State,Wisconsin,2003,Number,29000
+State,Wisconsin,2003,Percent,0.07
+State,Wisconsin,2004,Percent,0.07
+State,Wisconsin,2004,Number,28000
+State,Wisconsin,2005,Percent,0.08
+State,Wisconsin,2005,Number,32000
+State,Wisconsin,2006,Number,25000
+State,Wisconsin,2006,Percent,0.06
+State,Wisconsin,2007,Number,25000
+State,Wisconsin,2007,Percent,0.06
+State,Wyoming,2007,Percent,0.08
+State,Wyoming,2007,Number,3000
+State,Wyoming,2006,Percent,0.04
+State,Wyoming,2006,Number,2000
+State,Wyoming,2005,Number,2000
+State,Wyoming,2005,Percent,0.06
+State,Wyoming,2004,Number,3000
+State,Wyoming,2004,Percent,0.08
+State,Wyoming,2003,Percent,0.06
+State,Wyoming,2003,Number,2000
+State,Wyoming,2002,Number,3000
+State,Wyoming,2002,Percent,0.08
+State,Wyoming,2001,Number,2000
+State,Wyoming,2001,Percent,0.07
+State,Wyoming,2000,Percent,0.05
+State,Wyoming,2000,Number,2000
+Territory,Puerto Rico,2000,Number,N.A.
+Territory,Puerto Rico,2000,Percent,N.A.
+Territory,Puerto Rico,2001,Percent,N.A.
+Territory,Puerto Rico,2001,Number,N.A.
+Territory,Puerto Rico,2002,Number,N.A.
+Territory,Puerto Rico,2003,Number,N.A.
+Territory,Puerto Rico,2002,Percent,N.A.
+Territory,Puerto Rico,2003,Percent,N.A.
+Territory,Puerto Rico,2004,Percent,N.A.
+Territory,Puerto Rico,2005,Percent,0.27
+Territory,Puerto Rico,2005,Number,77000
+Territory,Puerto Rico,2004,Number,N.A.
+Territory,Puerto Rico,2006,Percent,0.25
+Territory,Puerto Rico,2006,Number,73000
+Territory,Puerto Rico,2007,Percent,0.26
+Territory,Puerto Rico,2007,Number,71000
